@@ -63,6 +63,6 @@ fof-byobu:
 
     notifications:
         private_discussion_created:
-            title: "[Privatna rasprava] korisnik započinje novu privatnu raspravu s tobom"
+            title: "[Private Discussion] korisnik započinje novu privatnu raspravu s tobom"
         private_discussion_replied:
             title: "[Private Discussion] korisnik objavljuje u privatnoj raspravi"
