@@ -1,15 +1,15 @@
 fof-drafts:
   admin:
     permissions:
-      start: Create discussion drafts
+      start: Stvaraj skice rasprava
   forum:
     composer:
-      title: Save Draft
-      alert: Draft saved.
-      exit_alert: Discard changes to draft?
+      title: Pohrani skicu
+      alert: Skica pohranjena.
+      exit_alert: Odbaci promjene skice?
     dropdown:
-      empty_text: You didn't save any drafts
-      title: Drafts
-      button: Delete Draft
+      empty_text: Niste pohranili nikakvu skicu
+      title: Skice
+      button: Obriši skicu
       tooltip: => fof-drafts.forum.dropdown.title
-      alert: Are you sure you want to delete your draft?
+      alert: Jeste li sigurni da želite obrisati skicu?
