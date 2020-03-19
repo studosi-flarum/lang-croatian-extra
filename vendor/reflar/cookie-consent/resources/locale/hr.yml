@@ -3,25 +3,25 @@ reflar-cookie-consent:
     settings:
       title: Reflar Cookie Consent
 
-      configuration_title: Configuration Options
-      consentText: Content Message
-      buttonText: Dismiss Button Text
-      configuration_button_title: Learn More Button
-      learnMoreLinkText: Text
-      learnMoreLinkUrl: Link
+      configuration_title: Postavke podešenja
+      consentText: Poruka sadržaja
+      buttonText: Tekst gumba za odbijanje
+      configuration_button_title: Za one koji žele znati više gumb
+      learnMoreLinkText: Tekst
+      learnMoreLinkUrl: Poveznica
 
-      theme_title: Theme Options
-      ccTheme: Theme
-      theme_popup_title: Popup Colors
-      backgroundColor: Background
-      textColor: Text
-      theme_dismiss_title: Dismiss Button Colors
-      buttonBackgroundColor: Background
-      buttonTextColor: Text
+      theme_title: Postavke teme
+      ccTheme: Tema
+      theme_popup_title: Boje iskočnog prozora
+      backgroundColor: Pozadina
+      textColor: Tekst
+      theme_dismiss_title: Boje gumba za odbijanje
+      buttonBackgroundColor: Pozadina
+      buttonTextColor: Tekst
 
       themes:
-        blocky: Blocky
-        edgeless: Edgeless
-        classic: Classic
-        custom: Custom
-        no_css: No CSS
+        blocky: Blok stil
+        edgeless: Bez rubova
+        classic: Klasično
+        custom: Prilagođeno
+        no_css: Bez CSS-a
