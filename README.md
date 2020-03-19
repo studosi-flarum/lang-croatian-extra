@@ -12,6 +12,11 @@ You will be prompted to enter your Flarum root directory - enter it.
 The script will just copy over the locale files if it finds the folder for them in your Flarum vendor folder.
 
 
+# Supported extensions
+
+- none yet
+
+
 # Links
 
 - [GitHub](https://github.com/studosi-flarum/lang-croatian-extra)
