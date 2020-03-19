@@ -1,12 +1,12 @@
 fof-recaptcha:
   admin:
     settings:
-      help_text: Obtain your Google reCAPTCHA credentials <a>here</a>.
+      help_text: Dođi do svojih reCAPTCHA akreditiva <a>ovdje</a>.
 
-      type_label: reCAPTCHA Type
+      type_label: Tip reCAPTCHE
 
-      site_key_label: Site Key
-      secret_key_label: Secret Key
+      site_key_label: Ključ stranice
+      secret_key_label: Tajni ključ
 
 validation:
-  recaptcha: reCAPTCHA validation failed.
+  recaptcha: Potvrđivanje reCAPTCHE nije uspjelo.
