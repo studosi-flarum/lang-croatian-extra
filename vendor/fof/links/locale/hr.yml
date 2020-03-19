@@ -9,10 +9,10 @@ fof-links:
 
     # These strings are used in the Edit Link modal dialog.
     edit_link:
-      delete_link_button: Delete Link
-      delete_link_confirmation: "Are you sure you want to delete this link?"
-      internal_link: "Is it a Flarum link?"
-      open_newtab: "Open link in new tab"
+      delete_link_button: Obriši poveznicu
+      delete_link_confirmation: "Jeste li sigurni da želite obrisati ovu poveznicu?"
+      internal_link: "Je li ovo Flarum poveznica?"
+      open_newtab: "Otvori poveznicu u novoj kartici"
       submit_button: => core.ref.save_changes
       title: => fof-links.ref.create_link
       title_label: => fof-links.ref.title
@@ -22,18 +22,18 @@ fof-links:
 
     # These strings are used in the Links page.
     links:
-      about_text: Manage primary menu links.
+      about_text: Upravljaj poveznicama primarnog izbornika.
       create_button: => fof-links.ref.create_link
       links: => fof-links.ref.links
 
     # These strings are used in the navigation bar.
     nav:
       links_button: => fof-links.ref.links
-      links_text: Manage the primary navigation list items.
+      links_text: Upravljaj primarnim popisom navigacijskih elemenata.
 
   # Strings in this namespace are referenced by two or more unique keys.
   ref:
-    create_link: Create Link
-    links: Links
-    title: Title
-    url: Url
+    create_link: Stvori poveznicu
+    links: Poveznice
+    title: Naslov
+    url: URL
