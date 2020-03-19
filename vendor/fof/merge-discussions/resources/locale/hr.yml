@@ -1,32 +1,32 @@
 fof-merge-discussions:
   forum:
     modal:
-      title: Merge Discussions
+      title: Spoji rasprave
 
-      type_target_label: Merge into me
-      type_target_help_text: Choose discussion(s) to merge into <b>{title}</b>.
+      type_target_label: Spoji sa mnom
+      type_target_help_text: Odaberi raspravu(e) koje želiš spojiti s <b>{title}</b>.
 
-      type_from_label: Merge this discussion into another
-      type_from_help_text: Choose target discussion to merge <b>{title}</b> into.
+      type_from_label: Spoji ovu raspravu s nekom drugom
+      type_from_help_text: Odaberi raspravu s kojom ćeš spojiti <b>{title}</b>.
 
-      load_preview_button: Preview
+      load_preview_button: Pretpregledaj
       submit_button: => fof-merge-discussions.ref.merge
 
     discussion:
       merge: => fof-merge-discussions.ref.merge
 
     post:
-      merged: Merged <b>{count}</b> post from {titles}.|Merged <b>{count}</b> posts from {titles}.
+      merged: Spojena <b>{count}</b> objava iz {titles}.|Broj objava spojenih iz {titles}: <b>{count}</b>.
 
   admin:
     permissions:
-      merge_discussions_label: Merge discussions
+      merge_discussions_label: Spoji rasprave
 
   api:
     error:
-      merging_failed: Failed to merge discussions.
-      updating_failed: Failed to update discussion details.
-      deleting_failed: Failed to delete empty discussions.
+      merging_failed: Pokušaj spajanja rasprava nije uspio.
+      updating_failed: Pokušaj ažuriranja pojedinosti rasprava nije uspio.
+      deleting_failed: Pokušaj brisanja prazne rasprave nije uspio.
 
   ref:
-    merge: Merge
+    merge: Spoji
