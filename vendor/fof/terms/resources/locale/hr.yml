@@ -1,76 +1,76 @@
 fof-terms:
     admin:
         settings:
-            title: Terms Settings
+            title: Terms postavke
 
             field:
-                signup-legal-text: Additional text on signup form
-                hide-updated-at: Do not show the date of update of the terms when an update is available
-                date-format: Date format
-                date-format-help: You can use any valid <a>Moment.js</a> format. Leave field empty for default.
-
+                signup-legal-text: Dodatni tekst na registracijskom obrascu
+                hide-updated-at: Ne prikazuj datum ažuriranja odredbi kad je dostupna nova inačica
+                date-format: Format datuma
+                date-format-help: Prihvaćeni su svi valjani <a>Moment.js</a> formati. Ostavi polje prazno za zadani format.
         titles:
-            policies: Policies
+            policies: Odredbe
 
         buttons:
-            new-policy: New Policy
-            edit-policy: Edit Policy
-            add-policy: Add Policy
-            save-policy: Save Policy
-            delete-policy: Delete Policy
-            set-to-now: Set to now
+            new-policy: Nova odredba
+            edit-policy: Uredi odredbu
+            add-policy: Dodaj odredbu
+            save-policy: Pohrani odredbu
+            delete-policy: Obriši odredbu
+            set-to-now: Postavi na trenutno vrijeme
 
         messages:
             delete-policy-confirmation: >
-                This will permanently delete the policy {name} and the associated accept dates from the database.
-                Please make sure you made a backup of those dates if you need them for legal reasons.
-                Are you sure you want to delete this policy ?
+                Ovo će odredbu {name} i pridružene datume prihvaćanja obrisati zauvijek iz baze podataka.
+                Pobrinite se da imate kopiju tih informacija zatrebate li ih iz legalnih razloga, molim.
+                Jeste li sigurni da želite obrisati ovu odredbu?
 
         policies:
-            name: Name
-            name-help: This name will be shown beside the checkbox and as the title of the update modal.
+            name: Naziv
+            name-help: Ovaj naziv bit će prikazan pored okvira za kvačicu i kao naslov prozora ažuriranja.
             url: URL
-            url-help: The URL to the page where you can read the terms. Will open in a new tab when clicked.
-            update-message: Update Message
-            update-message-help: A message to show to existing users who have not yet accepted the latest terms.
-            terms-updated-at: Updated at
+            url-help: URL koji pokazuje na stranicu gdje možeš pročitati uvjete. Otvorit će se u novoj kartici nakon klika.
+            update-message: Poruka ažuriranja
+            update-message-help: Poruka prikazana korisnicima koji još nisu prihvatili posljednje uvjete.
+            terms-updated-at: Ažurirano
             terms-updated-at-placeholder: YYYY-MM-DD (hh:mm:ss)
             terms-updated-at-help: >
-                The date of the last terms update.
-                Setting this value will require all users who accepted prior to that date to accept again.
-                Must be in the past (otherwise users would never be able to accept after the date and get past the modal).
-            export-url: Export URL
+                Datum posljednje inačice uvjeta.
+                Postavljanje ove vrijednosti će zahtjevati od korisnika koji su već prihvatili ovu odredbu da je ponovno prihvate.
+                Mora biti u prošlosi (inače korisnici ne bi mogli prihvatiti uvjete nakon tog datuma i proći mimo prozora).
+            export-url: Izvezi URL
             export-url-help: >
-                Any user with permission "Export all policies data" can access those URLs to download the list of users who accepted this policy.
-                You can find more details about the available options on the <a>extension wiki</a>.
+                Bilo koji korisnik s dopuštenjem da "Izveze sve podatke korisnika i odredbi" može pristupiti ovim URLovima i preuzeti popis korisnika koji su prihvatili ovu odredbu.
+                Više detalja o dostupnim odabirima možete pronaći na <a>extension wiki</a>.
 
         permissions:
-            see-user-policies-state: See the user policies state
-            postpone-policies-accept: Can postpone accepting the new terms
-            export-policies: Export all users and policies data
+            see-user-policies-state: Vidi stanje korisničkih odredbi
+            postpone-policies-accept: Smije odgoviti prihvaćanje novih uvjeta
+            export-policies: Izvezi sve podatke korisnika i odredbi
 
     forum:
         signup:
-            i-accept: I accept the <a>{policy}</a>
-            must-accept: The {policy} must be accepted.
+            i-accept: Prihvaćam odredbu <a>{policy}</a>
+            must-accept: Odredba {policy} mora biti prihvaćena.
 
         accept-modal:
-            title: Terms Update
-            updated-at: The terms were updated on {date}
-            updated-recently: The terms were updated since your last visit
-            i-accept: I accept the new <a>{policy}</a>
-            accept: Confirm
-            close: You can now close this modal
+            title: Ažuriranje uvjeta
+            updated-at: Nova inačica uvjeta objavljena je {date}
+            updated-recently: Nova inačica uvjeta izdana je od tvojeg posljednjeg posjeta
+            i-accept: Prihvaćam novu odredbu <a>{policy}</a>
+            accept: Potvrdi
+            close: Možete zatvoriti ovaj prozor
 
         state-modal:
-            title: Terms accept state for user {username}
-            accepted-at: Accepted at {date}
-            not-accepted: Not accepted
+            title: Stanje prihvaćanje uvjeta za {username}
+            accepted-at: Prihvaćeni {date}
+            not-accepted: Nisu prihvaćeni
 
         update-alert:
-            must-accept-message: We've temporarily restricted access to your account while you check out the new terms.
+            must-accept-message: Privremeno smo vam ograničili račun dok ne pročitate nove uvjete korištenja.
             can-accept-message: We recently updated the terms. You must accept them to continue using this website.
-            review: Click here to review and accept the new terms
+            can-accept-message: Nedavno smo izmijenili uvjete korištenja. Morate prihvatiti nove kako bi mogli nastaviti koristiti ovu stranicu.
+            review: Klikni ovdje za pregled i prihvaćanje uvjeta
 
         user_controls:
-            state_button: Terms accept state
+            state_button: Stanje prihvaćanja uvjeta
