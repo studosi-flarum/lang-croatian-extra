@@ -2,58 +2,58 @@ the-turk-mathren:
     admin:
         settings:
             title:                    MathRen
-            description:              Configure TeX math rendering.
-            wrapperOptionsHeading:    Wrapper Options
-            mathClasses:              Class names for the <code>span</code> tag
-            mathClassesHelp:          You can easily stylize your <code>span</code> wrappers using class names.
-            blockMathClass:           The <code>span</code> tag for block expressions
-            inlineMathClass:          The <code>span</code> tag for inline expressions
-            wrapperStyle:             Stylize <code>span</code> wrappers
-            katexOptionsHeading:      KaTeX Options
-            enableFleqn:              Enable flush left equations (fleqn)
-            enableLeqno:              Enable left equation numbers (leqno)
-            delimiters:               Delimiters
-            delimitersHelp:           Separate them with commas. <strong>%e%</strong> stands for mathematical expression.
-            mainBlockDelimiter:       Main <strong>BBCode</strong> delimiter for block expressions
-            mainInlineDelimiter:      Main <strong>BBCode</strong> delimiter for inline expressions
-            aliasBlockDelimiters:     Alias delimiters for block expressions
-            aliasInlineDelimiters:    Alias delimiters for inline expressions
+            description:              Podesi iscrtavanje TeX-a.
+            wrapperOptionsHeading:    Postavke omotnice
+            mathClasses:              Nazivi razreda za <code>span</code> oznaku
+            mathClassesHelp:          Jednostavno je stilizirati <code>span</code>omotnice koristeći nazive razreda.
+            blockMathClass:           <code>span</code> oznaka za blokovske izraze
+            inlineMathClass:          <code>span</code> oznaka za izraze unutar retka
+            wrapperStyle:             Stiliziraj <code>span</code> omotnice
+            katexOptionsHeading:      KaTeX postavke
+            enableFleqn:              Omogući flush left jednadžbe (fleqn)
+            enableLeqno:              Omogući brojeve jednadžbi slijeva (leqno)
+            delimiters:               Razdvojnici
+            delimitersHelp:           Odvoji izraze zarezom. <strong>%e%</strong> predstavlja neki matematički izraz.
+            mainBlockDelimiter:       Glavni <strong>BBCode</strong> razdvojnik za blokovske izraze
+            mainInlineDelimiter:      Glavni <strong>BBCode</strong> razdvojnik za izraze unutar retka
+            aliasBlockDelimiters:     Aliasni razdvojnici za blokovske izraze
+            aliasInlineDelimiters:    Aliasni razdvojnici za izraze unutar retka
             aliasDelimitersHelp:      >-
-                        They meant to be <strong>alias</strong> for <em>main BBCode delimiters</em>. If you have special delimiters (like <code>$$</code>)
-                        in your alias delimiters list, MathRen will scan the whole post for these additional delimiters when saving a post and will try to replace
-                        them with main BBCode delimiters. This may cause longer waiting time when saving a post. You may want to use additional BBCode delimiters
-                        instead of special ones to prevent this action though.
-            ignoringExpressions:      Ignoring Expressions
-            ignoringExpressionsHelp:  Separate them with commas.
-            decisiveKeywords:         List of decisive keywords to ignore expressions
+                        Oni su <strong>zamjenski nazivi</strong> za <em>glavne BBCode razdvojnike</em>. Ako imate posebne razdvojnike (npr. <code>$$</code>)
+                        na popisu aliasnih razdvojnika, MathRen će pretražiti cijelu objavu za ove dodatne razdvojnike prilikom pohrane objave i pokušati zamijeniti ih
+                        s glavnim BBCode razdvojnicima. To može povećati vrijeme čekanja prilikom objave. Preporuča se korištenje dodatnih BBCode razdvojnika umjesto
+                        korištenja posebnih kako bi se ovakvo nešto izbjeglo.
+            ignoringExpressions:      Ignorirani izrazi
+            ignoringExpressionsHelp:  Odvoji izraze zarezima
+            decisiveKeywords:         Popis ključnih riječi za ignoriranje izraza
             decisiveKeywordsHelp:     >-
-                        You will write one of these decisive keywords next to the <em>special</em> right delimiter (other than BBCode)
-                        with curly brackets (i.e. <code>$$%e%$${<strong>keyword</strong>}</code>) or inside a BBCode
+                        Potrebno je napisati jednu od ovih ključnih riječi pored <em>posebnog</em> desnog razdvojnika (drukčijeg od BBCodea)
+                        s vitičastim zagradama (npr. <code>$$%e%$${<strong>ključnariječ</strong>}</code>) ili unutar BBCodea.
                         (i.e. <code>[math=<strong>keyword</strong>]%e%[/math]</code>) to prevent expressions from rendering.
-                        <strong>Note that</strong> <code>[math]%e%[/math]{<strong>keyword</strong>}</code>
-                        is an example of <u>invalid usage</u>.
-            decisiveKeywordsInfo:     First keyword in this list will be used as default by text editor.
-            decisiveKeywordsWarning:  Do not use special characters! Or it will throw an exception.
-            ignoredTags:              List of DOM node types to ignore when recursing through
-            ignoredClasses:           List of DOM node class names to ignore when recursing through
-            ignoredClassesInfo:       First class in this list will be used as default to wrap ignored expression with.
-            outputMode:               Output mode
-            outputModeHelp:           Choose the markup language for the output
-            enableColorIsTextColor:   Allow <code>\color</code> command to take two arguments (colorIsTextColor)
-            enableThrowOnError:       Throw an error on unsupported command or invalid LaTeX
-            errorColor:               Color of unsupported commands or invalid LaTeX
-            errorColorHelp:           Choose the color that unsupported commands and invalid LaTeX are rendered in when error throwing is disabled.
-            sizeSettings:             Sizing options
-            sizeSettingsHelp:         Use <strong>point</strong> as decimal seperator. <em>Infinite values</em> are not acceptable!
-            minRuleThickness:         Minimum thickness (em)
-            maxSize:                  Maximum size (em)
-            macros:                   Macros
-            macrosHelp:               A collection of custom macros.
-            maxExpand:                Maximum expand limit
-            katexOptionsInfo:         You can find more information for KaTeX options on https://katex.org/
-            otherOptionsHeading:      Other Options
-            enableTextEditorButtons:  Show buttons on text editor
+                        <strong>Treba primijetiti</strong> da je <code>[math]%e%[/math]{<strong>ključnariječ</strong>}</code>
+                        primjer <u>neispravnog korištenja</u>.
+            decisiveKeywordsInfo:     Prva ključna riječ na ovom popisu bit će korištena kao zadana u uređivaču teksta.
+            decisiveKeywordsWarning:  Ne koristi posebne znakove, u suprotnom će biti bačena iznimka!
+            ignoredTags:              Popis tipova DOM čvorova koji se ignoriraju prilikom rekurzije
+            ignoredClasses:           Popis naziva razreda DOM čvorova koji se ignoriraju prilikom rekurzije
+            ignoredClassesInfo:       Prvi razred na ovom popisu bit će korišten kao zadani za omotavanje ignoriranih izraza.
+            outputMode:               Mod ispisa
+            outputModeHelp:           Odaberi markup jezik za ispis
+            enableColorIsTextColor:   Dozvoli <code>\color</code> naredbi da prima dva argumenta (colorIsTextColor)
+            enableThrowOnError:       Baci pogrešku kad se pojavi nepodržana naredba ili nevaljani LaTeX
+            errorColor:               Boja nepodržanog ili nevaljanog LaTeXa
+            errorColorHelp:           Odaberi boju kojom će se iscrtavati nepodržane i nevaljane LaTeX naredbe kad je bacanje pogrešaka onemogućeno.
+            sizeSettings:             Postavke veličine
+            sizeSettingsHelp:         Kao razdvojnik decimalnih brojeva koristi se <strong>točka</strong>. <em>Beskonačnosti</em> nisu valjani unos!
+            minRuleThickness:         Najmanja debljina (em)
+            maxSize:                  Najveća veličina (em)
+            macros:                   Makroi
+            macrosHelp:               Zbirka prilagođenih makroa.
+            maxExpand:                Ograničenje najvećeg rasprostranjenja
+            katexOptionsInfo:         Više pojedinosti oko KaTeX postavki možeš pronaći na https://katex.org/
+            otherOptionsHeading:      Druge postavke
+            enableTextEditorButtons:  Prikaži gumbiće na uređivaču teksta
     forum:
         textEditor:
-            blockExpression:          Block Expression
-            inlineExpression:         Inline Expression
+            blockExpression:          Blokovski izraz
+            inlineExpression:         Izraz unutar retka
