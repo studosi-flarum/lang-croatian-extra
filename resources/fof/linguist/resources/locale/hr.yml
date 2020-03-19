@@ -1,0 +1,32 @@
+fof-linguist:
+    admin:
+        menu:
+            title: Linguist
+            description: Podesi prijevode.
+        buttons:
+            apply: Primijeni
+            reset: Obnovi izvornik
+            copy-original: Kopiraj izvorni tekst
+            load-more: Učitaj još
+        locales:
+            all: Sve
+        placeholder:
+            not-translated: Neprevedeno
+            all-locales: Ovdje definirani tekst prikazat će se u svim jezicima
+            hint: Izvorna vrijednost:
+        filters:
+            search: Pretraži stringove prijevoda...
+            with-own-translations: Moji prijevodi
+            with-original-translations-in-locales: S izvornim prijevodima u
+            without-original-translations-in-locales: Bez izvornih prijevoda u
+            for-extension: Za proširenje
+            for-extension-unavailable: >
+                Prijevodi u očekivanom nazivnom prostoru "{namespace}" nisu pronađeni.
+                Možda ovo proširenje nema prevodivi tekst ili koristi različiti nazivni prostor.
+                Pokušaj locirati te prijevode koristeći polje za pretragu.
+            results: Prikazani poklapajući prijevodi: {shown} od {total}
+        clear-cache:
+            text: >
+                Novi prijevodi nisu još uvedeni
+                Treba primijetiti: brisanje predmemorije može trenutačno usporiti forum.
+            button: Prebriši predmemoriju
