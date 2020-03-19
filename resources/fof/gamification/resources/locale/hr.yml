@@ -1,0 +1,70 @@
+core:
+  forum:
+    index_sort:
+      hot_button: Rastuće
+      
+fof-gamification:
+  forum:
+    votes: Glasovi
+    vote_title: Prikaži glasače
+    nav:
+      name: Rankings
+    ranking:
+      rank: Mjesto
+      name: Korisnik
+      amount: bod.
+    notification:
+      upvote: "{username} goreglasuje tvoju objavu"
+      downvote: "{username} doljeglasuje tvoju objavu"
+    user:
+      points: "Bodovi: {points}"
+      rank: "{rank}"
+    modal:
+      title: Glasači
+      upvotes_label: 'Goreglasači:'
+      downvotes_label: 'Doljeglasači:'
+    mod_item: Pregledaj glasače
+  admin:
+    permissions:
+      vote_label: Glasaj na objave
+      see_votes_label: Pregledaj glasove
+      see_ranking_page: Pregledaj stranicu zasluga
+    nav:
+      desc: Gamification za vašu Flarum zajednicu
+    page:
+      rankings:
+        blocked:
+          placeholder: CDK2020, Ralkage, AngelAvila
+          title: Ignorirani korisnici
+          help: Ovi korisnici neće biti prikazani na stranici zasluga. Korisnička imena trebaju biti odvojena zarezom i razmakom.
+        title: Stranica zasluga
+        enable: Dozvoli prilagođene slike
+        custom_image_1: Slika za 1. mjesto
+        custom_image_2: Slika za 2. mjesto
+        custom_image_3: Slika za 3. mjesto
+      votes:
+        points_title: Predložak za bodove
+        points_placeholder: "Bodovi: "
+        color_holder: '#ffffff'
+        auto_upvote: Automatski goreglasaj vlastite objave
+        rate_limit: Uvedi vremensko ograničenje za glasovanje (10 sekundi)
+        discussion_page: Prikaži broj ukupnih glasova na popisu rasprava
+        title: Glasovi
+        vote_color: Boja glasova
+        icon_name: Glasačka ikonica
+        icon_help: "Unesi neku Font-Awesome ikonicu koja ima sufikse -up i -down. Na primjer: arrow, thumbs, chevron"
+      save_settings: Spremi postavke
+      convert:
+        button: Pretvori lajkove u goreglasove
+        help: Pretvori sve lajkove iz flarum-ext-likes proširenja u goreglasove te izračunaj vatrenost svih postojećih rasprava.
+        converting: Tvoji lajkovi se pretvaraju. Osvježi stranicu nakon par minuta, možda će se proces do tada završiti. (Vrijeme pretvorbe može potrajati ovisno o ukupnom broju lajkova)
+        converted: "Uspješno pretvoreni lajkovi: {number}"
+      ranks:
+        title: Zasluge
+        ranks: Prilagođene zasluge
+        number_title: Koliko se značkica zasluga treba prikazivati?
+        help:
+          color: '#ffffff'
+          help: "Unesi potreban broj goreglasova, naziv zasluge, i heksadekadski broj za boju zasluge"
+          points: Bodovi
+          name: Naziv

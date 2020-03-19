@@ -14,7 +14,7 @@ The script will just copy over the locale files if it finds the folder for them 
 
 # Supported extensions
 
-- none yet
+- Gamification (fof/gamification)
 
 
 # Links
