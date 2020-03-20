@@ -24,7 +24,7 @@ fof-linguist:
                 Prijevodi u očekivanom nazivnom prostoru "{namespace}" nisu pronađeni.
                 Možda ovo proširenje nema prevodivi tekst ili koristi različiti nazivni prostor.
                 Pokušaj locirati te prijevode koristeći polje za pretragu.
-            results: Prikazani poklapajući prijevodi: {shown} od {total}
+            results: "Prikazani poklapajući prijevodi: {shown} od {total}"
         clear-cache:
             text: >
                 Novi prijevodi nisu još uvedeni

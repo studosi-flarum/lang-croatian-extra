@@ -25,7 +25,7 @@ fof-byobu:
                 groups: Grupe dopuštenja
         modal:
             titles:
-                update_recipients: Ažuriraj primatelje {title}
+                update_recipients: "Ažuriraj primatelje {title}"
                 add_recipients: Dodaj još primatelja u raspravu
             help:
                 add_recipients: Ova rasprava bit će vidljiva samo korisnicima koje ovdje odaberete. Potreban je barem 1 primatelj (ne uključujući vas)

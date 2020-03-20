@@ -26,7 +26,6 @@ fof-reactions:
       convert:
         help: Ako ste tek ažurirali proširenje, vaše reakcije će trebati proći kroz pretvorbu. Ako ste tek instalirali ovo proširenje, možete sa sigurnoži ignorirati ovu poruku.
         button: Pretvori stare reakcije
-        converting: Your reactions are now converting. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total number of reactions)
         converting: Vaše reakcije su u fazi pretvorbe. Osvježite svoju stranicu nakon par minuta ne bi li vidjeli je li postupak završen (Vrijeme pretvorbe može potrajati ovisno o ukupno broju reakcija)
         converted: "Broj uspješno pretvorenih lajkova: {number}"
 

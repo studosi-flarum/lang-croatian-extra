@@ -5,7 +5,7 @@ fof-user-directory:
         page:
             nav: Direktorij korisnika
             sort:
-                relevance: Bitnost
+                relevance: Značajnost
                 default: Zadano
                 username_az: Korisničko ime (a-ž)
                 username_za: Korisničko ime (ž-a)

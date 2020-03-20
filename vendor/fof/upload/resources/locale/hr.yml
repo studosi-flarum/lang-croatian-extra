@@ -16,7 +16,6 @@ fof-upload:
       resize: |
         Odaberi želiš li promijeniti veličinu slika prije nego što budu predane. Možeš odabrati najveću širinu i visinu u pikselima. Postupak promjene veličine ne mijenja omjer visine i širine slike.
       watermark: |
-        Choose whether images will have a watermark added during upload. Watermarks are added to non-gifs based on your preferences below.
         Odluči hoće li slike tijekom predaje dobiti vodeni žig. Vodeni žigovi dodaju se na sve ne-gifove ovisno o vašim preferencama ispod.
     labels:
       aws-s3:
