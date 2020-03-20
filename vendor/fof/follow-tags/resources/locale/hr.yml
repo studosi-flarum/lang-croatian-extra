@@ -19,7 +19,7 @@ fof-follow-tags:
       ignoring_button: => fof-follow-tags.ref.ignoring
       ignoring_text: Ne obavještavaj me.
       lurking_button: => fof-follow-tags.ref.lurking
-      lurking_text: Obavjesti me kad je objavljena nova rasprava ili objava.
+      lurking_text: Obavijesti me kad je objavljena nova rasprava ili objava.
       not_following_button: Ne pratim
       not_following_text: "Obavijesti me samo na @spomen."
       notify_alert_tooltip: Obavijesti me kad je objavljena nova rasprava ili objava

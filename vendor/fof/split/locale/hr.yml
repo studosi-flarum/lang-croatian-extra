@@ -8,7 +8,7 @@ fof-split:
             was_split_from: "{count} objava je razdvojena od {target}.|{Broj objava razdvojenih od {target}: {count}."
         split:
             from: Razdvoji od ovdje
-            to: SRazdvoji do ovdje
+            to: Razdvoji do ovdje
         modal:
             title: Razdvoji rasprave
             new_discussion_label: Odredi naslov nove rasprave

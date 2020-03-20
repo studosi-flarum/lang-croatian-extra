@@ -55,7 +55,7 @@ fof-terms:
 
         accept-modal:
             title: Ažuriranje uvjeta
-            updated-at: Nova inačica uvjeta objavljena je {date}
+            updated-at: "Nova inačica uvjeta objavljena je {date}"
             updated-recently: Nova inačica uvjeta izdana je od tvojeg posljednjeg posjeta
             i-accept: "Prihvaćam novu odredbu <a>{policy}</a>"
             accept: Potvrdi
@@ -68,7 +68,6 @@ fof-terms:
 
         update-alert:
             must-accept-message: Privremeno smo vam ograničili račun dok ne pročitate nove uvjete korištenja.
-            can-accept-message: We recently updated the terms. You must accept them to continue using this website.
             can-accept-message: Nedavno smo izmijenili uvjete korištenja. Morate prihvatiti nove kako bi mogli nastaviti koristiti ovu stranicu.
             review: Klikni ovdje za pregled i prihvaćanje uvjeta
 

@@ -20,6 +20,6 @@ fof-ignore-users:
       ignore_button: Ignoriraj
       ignore_confirmation: "Jeste li sigurni da želite ignorirati ovu osobu?"
       unignore_button: Prestani ignorirati
-      unignore_confirmation: Jeste li sigurni da želite prestati ignorirati ovu osobu?
+      unignore_confirmation: "Jeste li sigurni da želite prestati ignorirati ovu osobu?"
 
 

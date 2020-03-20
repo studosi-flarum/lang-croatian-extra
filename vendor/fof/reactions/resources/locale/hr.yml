@@ -24,7 +24,7 @@ fof-reactions:
           identifier: Identifikator
 
       convert:
-        help: Ako ste tek ažurirali proširenje, vaše reakcije će trebati proći kroz pretvorbu. Ako ste tek instalirali ovo proširenje, možete sa sigurnoži ignorirati ovu poruku.
+        help: "Ako ste tek ažurirali proširenje, vaše reakcije će trebati proći kroz pretvorbu. Ako ste tek instalirali ovo proširenje, možete sa sigurnoži ignorirati ovu poruku."
         button: Pretvori stare reakcije
         converting: "Vaše reakcije su u fazi pretvorbe. Osvježite svoju stranicu nakon par minuta ne bi li vidjeli je li postupak završen (Vrijeme pretvorbe može potrajati ovisno o ukupno broju reakcija)"
         converted: "Broj uspješno pretvorenih lajkova: {number}"
@@ -37,7 +37,6 @@ fof-reactions:
           gamification:
             legend: Gamification
             upvoteLabel: Pretvori reakcije u goreglasove
-            upvoteHelptext: Input the identifier of the reaction you would like to automatically convert into an upvote
             upvoteHelptext: Unesite identifikator reakcije koju bi voljeli automatski pretvoriti u goreglas
             downvoteLabel: Pretvori reakcije u doljeglasove
             downvoteHelptext: Unesite identifikator reakcije koju bi voljeli automatski pretvoriti u doljeglas

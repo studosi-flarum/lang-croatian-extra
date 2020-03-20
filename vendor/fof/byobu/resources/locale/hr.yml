@@ -19,7 +19,7 @@ fof-byobu:
             private_discussions: Privatna rasprava
             start_button: Nova privatna rasprava
         input:
-            search_recipients: Nađi primatelje unosom tri znaka...
+            search_recipients: Nađi primatelje, unesi bar tri znaka...
         search:
             headings:
                 groups: Grupe dopuštenja

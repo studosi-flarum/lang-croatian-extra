@@ -50,7 +50,7 @@ the-turk-mathren:
             macros:                   Makroi
             macrosHelp:               Zbirka prilagođenih makroa.
             maxExpand:                Ograničenje najvećeg rasprostranjenja
-            katexOptionsInfo:         "Više pojedinosti oko KaTeX postavki možeš pronaći na https://katex.org/"
+            katexOptionsInfo:         "Više pojedinosti o KaTeX postavkama možeš pronaći na https://katex.org/"
             otherOptionsHeading:      Druge postavke
             enableTextEditorButtons:  Prikaži gumbiće na uređivaču teksta
     forum:

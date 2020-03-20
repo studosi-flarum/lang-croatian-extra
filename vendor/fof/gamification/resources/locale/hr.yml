@@ -8,7 +8,7 @@ fof-gamification:
     votes: Glasovi
     vote_title: Prikaži glasače
     nav:
-      name: Rankings
+      name: Zasluge
     ranking:
       rank: Mjesto
       name: Korisnik
@@ -47,7 +47,7 @@ fof-gamification:
         points_placeholder: "Bodovi: "
         color_holder: '#ffffff'
         auto_upvote: Automatski goreglasaj vlastite objave
-        rate_limit: Uvedi vremensko ograničenje za glasovanje (10 sekundi)
+        rate_limit: "Uvedi vremensko ograničenje za glasovanje (10 sekundi)"
         discussion_page: Prikaži broj ukupnih glasova na popisu rasprava
         title: Glasovi
         vote_color: Boja glasova
@@ -56,13 +56,13 @@ fof-gamification:
       save_settings: Spremi postavke
       convert:
         button: Pretvori lajkove u goreglasove
-        help: Pretvori sve lajkove iz flarum-ext-likes proširenja u goreglasove te izračunaj vatrenost svih postojećih rasprava.
-        converting: Tvoji lajkovi se pretvaraju. Osvježi stranicu nakon par minuta, možda će se proces do tada završiti. (Vrijeme pretvorbe može potrajati ovisno o ukupnom broju lajkova)
+        help: "Pretvori sve lajkove iz flarum-ext-likes proširenja u goreglasove te izračunaj vatrenost svih postojećih rasprava."
+        converting: "Tvoji lajkovi se pretvaraju. Osvježi stranicu nakon par minuta, možda će se proces do tada završiti. (Vrijeme pretvorbe može potrajati ovisno o ukupnom broju lajkova)"
         converted: "Uspješno pretvoreni lajkovi: {number}"
       ranks:
         title: Zasluge
         ranks: Prilagođene zasluge
-        number_title: Koliko se značkica zasluga treba prikazivati?
+        number_title: "Koliko se značkica zasluga treba prikazivati?"
         help:
           color: '#ffffff'
           help: "Unesi potreban broj goreglasova, naziv zasluge, i heksadekadski broj za boju zasluge"

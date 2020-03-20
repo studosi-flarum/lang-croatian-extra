@@ -13,7 +13,7 @@ fof-linguist:
         placeholder:
             not-translated: Neprevedeno
             all-locales: Ovdje definirani tekst prikazat će se u svim jezicima
-            hint: Izvorna vrijednost:
+            hint: "Izvorna vrijednost:"
         filters:
             search: Pretraži stringove prijevoda...
             with-own-translations: Moji prijevodi
