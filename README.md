@@ -15,7 +15,7 @@ The script will just run rsync with the vendor folder. What this means essential
 
 Clear your cache by running `php flarum cache:clear` while in your Flarum root directory.
 
-Change your Flarum root folder ownership to `www-data` by running `sudo chown www-data:www-data . -R` while in your Flarum root folder.
+Change your Flarum root folder ownership to `www-data` by running `sudo chown www-data:www-data ./ -R` while in your Flarum root folder.
 
 
 # Supported extensions
