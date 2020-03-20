@@ -5,7 +5,7 @@ the-turk-mathren:
             description:              "Podesi iscrtavanje TeX-a."
             wrapperOptionsHeading:    Postavke omotnice
             mathClasses:              "Nazivi razreda za <code>span</code> oznaku"
-            mathClassesHelp:          "Jednostavno je stilizirati <code>span</code>omotnice koristeći nazive razreda.
+            mathClassesHelp:          "Jednostavno je stilizirati <code>span</code>omotnice koristeći nazive razreda."
             blockMathClass:           "<code>span</code> oznaka za blokovske izraze"
             inlineMathClass:          "<code>span</code> oznaka za izraze unutar retka"
             wrapperStyle:             "Stiliziraj <code>span</code> omotnice"
@@ -39,7 +39,7 @@ the-turk-mathren:
             ignoredClassesInfo:       Prvi razred na ovom popisu bit će korišten kao zadani za omotavanje ignoriranih izraza.
             outputMode:               Mod ispisa
             outputModeHelp:           Odaberi markup jezik za ispis
-            enableColorIsTextColor:   "Dozvoli <code>\color</code> naredbi da prima dva argumenta (colorIsTextColor)"
+            enableColorIsTextColor:   "Dozvoli <code>\\color</code> naredbi da prima dva argumenta (colorIsTextColor)"
             enableThrowOnError:       Baci pogrešku kad se pojavi nepodržana naredba ili nevaljani LaTeX
             errorColor:               Boja nepodržanog ili nevaljanog LaTeXa
             errorColorHelp:           Odaberi boju kojom će se iscrtavati nepodržane i nevaljane LaTeX naredbe kad je bacanje pogrešaka onemogućeno.
