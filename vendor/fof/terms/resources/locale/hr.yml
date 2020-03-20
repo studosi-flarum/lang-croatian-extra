@@ -7,7 +7,7 @@ fof-terms:
                 signup-legal-text: Dodatni tekst na registracijskom obrascu
                 hide-updated-at: Ne prikazuj datum ažuriranja odredbi kad je dostupna nova inačica
                 date-format: Format datuma
-                date-format-help: Prihvaćeni su svi valjani <a>Moment.js</a> formati. Ostavi polje prazno za zadani format.
+                date-format-help: "Prihvaćeni su svi valjani <a>Moment.js</a> formati. Ostavi polje prazno za zadani format."
         titles:
             policies: Odredbe
 
@@ -33,7 +33,7 @@ fof-terms:
             update-message: Poruka ažuriranja
             update-message-help: Poruka prikazana korisnicima koji još nisu prihvatili posljednje uvjete.
             terms-updated-at: Ažurirano
-            terms-updated-at-placeholder: YYYY-MM-DD (hh:mm:ss)
+            terms-updated-at-placeholder: "YYYY-MM-DD (hh:mm:ss)"
             terms-updated-at-help: >
                 Datum posljednje inačice uvjeta.
                 Postavljanje ove vrijednosti će zahtjevati od korisnika koji su već prihvatili ovu odredbu da je ponovno prihvate.
@@ -50,20 +50,20 @@ fof-terms:
 
     forum:
         signup:
-            i-accept: Prihvaćam odredbu <a>{policy}</a>
-            must-accept: Odredba {policy} mora biti prihvaćena.
+            i-accept: "Prihvaćam odredbu <a>{policy}</a>"
+            must-accept: "Odredba {policy} mora biti prihvaćena."
 
         accept-modal:
             title: Ažuriranje uvjeta
             updated-at: Nova inačica uvjeta objavljena je {date}
             updated-recently: Nova inačica uvjeta izdana je od tvojeg posljednjeg posjeta
-            i-accept: Prihvaćam novu odredbu <a>{policy}</a>
+            i-accept: "Prihvaćam novu odredbu <a>{policy}</a>"
             accept: Potvrdi
             close: Možete zatvoriti ovaj prozor
 
         state-modal:
-            title: Stanje prihvaćanje uvjeta za {username}
-            accepted-at: Prihvaćeni {date}
+            title: "Stanje prihvaćanje uvjeta za {username}"
+            accepted-at: "Prihvaćeni {date}"
             not-accepted: Nisu prihvaćeni
 
         update-alert:

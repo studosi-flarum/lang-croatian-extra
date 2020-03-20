@@ -1,7 +1,7 @@
 fof-recaptcha:
   admin:
     settings:
-      help_text: Dođi do svojih reCAPTCHA akreditiva <a>ovdje</a>.
+      help_text: "Dođi do svojih reCAPTCHA akreditiva <a>ovdje</a>."
 
       type_label: Tip reCAPTCHE
 

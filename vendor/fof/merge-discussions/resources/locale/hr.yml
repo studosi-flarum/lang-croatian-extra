@@ -4,10 +4,10 @@ fof-merge-discussions:
       title: Spoji rasprave
 
       type_target_label: Spoji sa mnom
-      type_target_help_text: Odaberi raspravu(e) koje želiš spojiti s <b>{title}</b>.
+      type_target_help_text: "Odaberi raspravu(e) koje želiš spojiti s <b>{title}</b>."
 
       type_from_label: Spoji ovu raspravu s nekom drugom
-      type_from_help_text: Odaberi raspravu s kojom ćeš spojiti <b>{title}</b>.
+      type_from_help_text: "Odaberi raspravu s kojom ćeš spojiti <b>{title}</b>."
 
       load_preview_button: Pretpregledaj
       submit_button: => fof-merge-discussions.ref.merge
@@ -16,7 +16,7 @@ fof-merge-discussions:
       merge: => fof-merge-discussions.ref.merge
 
     post:
-      merged: Spojena <b>{count}</b> objava iz {titles}.|Broj objava spojenih iz {titles}: <b>{count}</b>.
+      merged: "Spojena <b>{count}</b> objava iz {titles}.|Broj objava spojenih iz {titles}: <b>{count}</b>."
 
   admin:
     permissions:

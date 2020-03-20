@@ -7,8 +7,8 @@ fof-user-directory:
             sort:
                 relevance: Značajnost
                 default: Zadano
-                username_az: Korisničko ime (a-ž)
-                username_za: Korisničko ime (ž-a)
+                username_az: "Korisničko ime (a-ž)"
+                username_za: "Korisničko ime (ž-a)"
                 newest: Najnovije
                 oldest: Najstarije
                 seen_recent: Nedavno na vezi

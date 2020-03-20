@@ -7,7 +7,7 @@ fof-polls:
       vote: Glasuj na anketama
 
   forum:
-    days_remaining: Anketa završava {time}.
+    days_remaining: "Anketa završava {time}."
     no_permission: Nemaš ovlasti za glasanje
     poll_ended: Ova anketa je završena.
     public_poll: Pregledaj glasače
@@ -33,7 +33,7 @@ fof-polls:
 
     moderation:
       delete: Ukloni anketu
-      delete_confirm: Jeste li sigurni da želite obrisati ovu anketu?
+      delete_confirm: "Jeste li sigurni da želite obrisati ovu anketu?"
       edit: Uredi anketu
 
     tooltip:

@@ -2,20 +2,20 @@ the-turk-mathren:
     admin:
         settings:
             title:                    MathRen
-            description:              Podesi iscrtavanje TeX-a.
+            description:              "Podesi iscrtavanje TeX-a."
             wrapperOptionsHeading:    Postavke omotnice
-            mathClasses:              Nazivi razreda za <code>span</code> oznaku
-            mathClassesHelp:          Jednostavno je stilizirati <code>span</code>omotnice koristeći nazive razreda.
-            blockMathClass:           <code>span</code> oznaka za blokovske izraze
-            inlineMathClass:          <code>span</code> oznaka za izraze unutar retka
-            wrapperStyle:             Stiliziraj <code>span</code> omotnice
+            mathClasses:              "Nazivi razreda za <code>span</code> oznaku"
+            mathClassesHelp:          "Jednostavno je stilizirati <code>span</code>omotnice koristeći nazive razreda.
+            blockMathClass:           "<code>span</code> oznaka za blokovske izraze"
+            inlineMathClass:          "<code>span</code> oznaka za izraze unutar retka"
+            wrapperStyle:             "Stiliziraj <code>span</code> omotnice"
             katexOptionsHeading:      KaTeX postavke
-            enableFleqn:              Omogući flush left jednadžbe (fleqn)
-            enableLeqno:              Omogući brojeve jednadžbi slijeva (leqno)
+            enableFleqn:              "Omogući flush left jednadžbe (fleqn)"
+            enableLeqno:              "Omogući brojeve jednadžbi slijeva (leqno)"
             delimiters:               Razdvojnici
-            delimitersHelp:           Odvoji izraze zarezom. <strong>%e%</strong> predstavlja neki matematički izraz.
-            mainBlockDelimiter:       Glavni <strong>BBCode</strong> razdvojnik za blokovske izraze
-            mainInlineDelimiter:      Glavni <strong>BBCode</strong> razdvojnik za izraze unutar retka
+            delimitersHelp:           "Odvoji izraze zarezom. <strong>%e%</strong> predstavlja neki matematički izraz."
+            mainBlockDelimiter:       "Glavni <strong>BBCode</strong> razdvojnik za blokovske izraze"
+            mainInlineDelimiter:      "Glavni <strong>BBCode</strong> razdvojnik za izraze unutar retka"
             aliasBlockDelimiters:     Aliasni razdvojnici za blokovske izraze
             aliasInlineDelimiters:    Aliasni razdvojnici za izraze unutar retka
             aliasDelimitersHelp:      >-
@@ -33,24 +33,24 @@ the-turk-mathren:
                         <strong>Treba primijetiti</strong> da je <code>[math]%e%[/math]{<strong>ključnariječ</strong>}</code>
                         primjer <u>neispravnog korištenja</u>.
             decisiveKeywordsInfo:     Prva ključna riječ na ovom popisu bit će korištena kao zadana u uređivaču teksta.
-            decisiveKeywordsWarning:  Ne koristi posebne znakove, u suprotnom će biti bačena iznimka!
+            decisiveKeywordsWarning:  "Ne koristi posebne znakove, u suprotnom će biti bačena iznimka!"
             ignoredTags:              Popis tipova DOM čvorova koji se ignoriraju prilikom rekurzije
             ignoredClasses:           Popis naziva razreda DOM čvorova koji se ignoriraju prilikom rekurzije
             ignoredClassesInfo:       Prvi razred na ovom popisu bit će korišten kao zadani za omotavanje ignoriranih izraza.
             outputMode:               Mod ispisa
             outputModeHelp:           Odaberi markup jezik za ispis
-            enableColorIsTextColor:   Dozvoli <code>\color</code> naredbi da prima dva argumenta (colorIsTextColor)
+            enableColorIsTextColor:   "Dozvoli <code>\color</code> naredbi da prima dva argumenta (colorIsTextColor)"
             enableThrowOnError:       Baci pogrešku kad se pojavi nepodržana naredba ili nevaljani LaTeX
             errorColor:               Boja nepodržanog ili nevaljanog LaTeXa
             errorColorHelp:           Odaberi boju kojom će se iscrtavati nepodržane i nevaljane LaTeX naredbe kad je bacanje pogrešaka onemogućeno.
             sizeSettings:             Postavke veličine
-            sizeSettingsHelp:         Kao razdvojnik decimalnih brojeva koristi se <strong>točka</strong>. <em>Beskonačnosti</em> nisu valjani unos!
-            minRuleThickness:         Najmanja debljina (em)
-            maxSize:                  Najveća veličina (em)
+            sizeSettingsHelp:         "Kao razdvojnik decimalnih brojeva koristi se <strong>točka</strong>. <em>Beskonačnosti</em> nisu valjani unos!"
+            minRuleThickness:         "Najmanja debljina (em)"
+            maxSize:                  "Najveća veličina (em)"
             macros:                   Makroi
             macrosHelp:               Zbirka prilagođenih makroa.
             maxExpand:                Ograničenje najvećeg rasprostranjenja
-            katexOptionsInfo:         Više pojedinosti oko KaTeX postavki možeš pronaći na https://katex.org/
+            katexOptionsInfo:         "Više pojedinosti oko KaTeX postavki možeš pronaći na https://katex.org/"
             otherOptionsHeading:      Druge postavke
             enableTextEditorButtons:  Prikaži gumbiće na uređivaču teksta
     forum:

@@ -24,4 +24,4 @@ reflar-cookie-consent:
         edgeless: Bez rubova
         classic: Klasično
         custom: Prilagođeno
-        no_css: Bez CSS-a
+        no_css: "Bez CSS-a"

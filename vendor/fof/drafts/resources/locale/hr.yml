@@ -12,4 +12,4 @@ fof-drafts:
       title: Skice
       button: Obriši skicu
       tooltip: => fof-drafts.forum.dropdown.title
-      alert: Jeste li sigurni da želite obrisati skicu?
+      alert: "Jeste li sigurni da želite obrisati skicu?"

@@ -42,7 +42,7 @@ fof-upload:
         secret: Tajna
         bucket: Bucket
       preferences:
-        max_file_size: Najveća veličina (u KB)
+        max_file_size: "Najveća veličina (u KB)"
         mime_types: 'Podesi mime tip, predaj mapiranje prilagodnika'
         title: Opće preference
       resize:

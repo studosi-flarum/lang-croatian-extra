@@ -18,7 +18,7 @@ fof-ignore-users:
     # These strings are used in the User Controls menu.
     user_controls:
       ignore_button: Ignoriraj
-      ignore_confirmation: Jeste li sigurni da želite ignorirati ovu osobu?
+      ignore_confirmation: "Jeste li sigurni da želite ignorirati ovu osobu?"
       unignore_button: Prestani ignorirati
       unignore_confirmation: Jeste li sigurni da želite prestati ignorirati ovu osobu?
 

@@ -18,7 +18,7 @@ fof-reactions:
       reactions:
         title: Prilagođene reakcije
         reactions: Trenutne reakcije
-        Helptext: Unesi naziv (identifikator) emojija ili Font-Awesome ikonice i označi tip koji želiš.
+        Helptext: "Unesi naziv (identifikator) emojija ili Font-Awesome ikonice i označi tip koji želiš."
         help:
           display: Prikaz
           identifier: Identifikator
@@ -26,14 +26,14 @@ fof-reactions:
       convert:
         help: Ako ste tek ažurirali proširenje, vaše reakcije će trebati proći kroz pretvorbu. Ako ste tek instalirali ovo proširenje, možete sa sigurnoži ignorirati ovu poruku.
         button: Pretvori stare reakcije
-        converting: Vaše reakcije su u fazi pretvorbe. Osvježite svoju stranicu nakon par minuta ne bi li vidjeli je li postupak završen (Vrijeme pretvorbe može potrajati ovisno o ukupno broju reakcija)
+        converting: "Vaše reakcije su u fazi pretvorbe. Osvježite svoju stranicu nakon par minuta ne bi li vidjeli je li postupak završen (Vrijeme pretvorbe može potrajati ovisno o ukupno broju reakcija)"
         converted: "Broj uspješno pretvorenih lajkova: {number}"
 
       settings:
         save_settings: Pohrani postavke
         integrations:
           legend: Integracije
-          warning: Identična reakcija <strong>ne može</strong> biti pretvorena u lajk <strong>i</strong> goreglas
+          warning: "Identična reakcija <strong>ne može</strong> biti pretvorena u lajk <strong>i</strong> goreglas"
           gamification:
             legend: Gamification
             upvoteLabel: Pretvori reakcije u goreglasove
