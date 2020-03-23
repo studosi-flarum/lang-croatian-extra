@@ -41,7 +41,9 @@ Change your Flarum root folder ownership to `www-data` by running `sudo chown ww
 - FoF Upload ([fof/upload](https://github.com/FriendsOfFlarum/upload))
 - FoF User Directory ([fof/user-directory](https://github.com/FriendsOfFlarum/user-directory))
 - MathRen ([the-turk/flarum-mathren](https://github.com/the-turk/flarum-mathren))
-- ReFlar Cookie Consent ([reflar/cookie-consent](https://github.com/ReFlar/cookie-consent))
+- Nickname Changer ([dem13n/nickname-changer](https://github.com/dem13n/nickname-changer))
+- ReFlar Cookie Consent ([reflar/cookie-consent](https://github.com/Dem13n/nickname-changer))
+- Web Push Notifications ([nikovonlas/flarum-ext-web-push](https://github.com/NikoVonLas/flarum-ext-web-push))
 
 
 # Repository owner of some of the above projects?
