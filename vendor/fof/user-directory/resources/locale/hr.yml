@@ -1,25 +1,25 @@
 fof-user-directory:
     forum:
         search:
-            users_heading: 'Pretraži korisnike vezane uz "{query}"'
+            users_heading: 'Pretražite korisnike vezane uz "{query}"'
         page:
             nav: Direktorij korisnika
             sort:
-                relevance: Značajnost
-                default: Zadano
-                username_az: "Korisničko ime (a-ž)"
-                username_za: "Korisničko ime (ž-a)"
-                newest: Najnovije
-                oldest: Najstarije
-                seen_recent: Nedavno na vezi
-                seen_oldest: Najdulje u odsustvu
-                most_posts: Najviše objava
-                least_posts: Najmanje objava
-                most_discussions: Najviše rasprava
-                least_discussions: Najmanje rasprava
+                relevance: Po značajnosti
+                default: Po zadanom redoslijedu
+                username_az: "Po korisničkom imenu (a-ž)"
+                username_za: "Po korisničkom imenu (ž-a)"
+                newest: Po mladosti
+                oldest: Po starosti
+                seen_recent: Po prisutnosti
+                seen_oldest: Po odsutnosti
+                most_posts: Po rječitosti
+                least_posts: Po šutljivosti
+                most_discussions: "Po broju rasprava (silazno)"
+                least_discussions: "Po broju rasprava (uzlazno)"
     admin:
         permissions:
             view_user_directory: Pregledaj direktorij korisnika
         settings:
             title: User Directory postavke
-            link: Dodaj poveznicu na naslovnicu kako bi korisnici mogli pregledavati direktorij
+            link: Dodaj poveznicu na naslovnicu kako bi ga korisnici mogli pregledavati

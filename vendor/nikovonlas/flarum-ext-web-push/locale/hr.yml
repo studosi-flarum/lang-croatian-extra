@@ -1,0 +1,54 @@
+nikovonlas-webpush:
+  forum:
+    subscribe: Pretplati se na iskočne obavijesti
+  admin:
+    settings:
+      title: WebPush postavke
+      type:
+        description: Tip OneSignal spojnika
+        standart: Uobičajeno
+        custom: Prilagođeno
+      app_id: OneSignal aplikacijski identifikator
+      api_key: OneSignal aplikacijski ključ
+      user_key: OneSignal korisnički ključ
+      subdomain: OneSignal poddomena
+      excerpt: Duljina poruke u obavijesti
+      autoprompt: Prikaži upit za dopuštenje za autorizaciju korisnika odmah
+  notify:
+    like:
+      title: Objava lajkana
+      message: '{from} lajka tvoju objavu u {post}'
+    mention-post:
+      title: 'Novi odgovor u {title}'
+      message: '{from} odgovara na objavu u {post}'
+    mention:
+      title: 'Netko te spominje u {title}'
+      message: '{from} te spominje u {post}'
+    post:
+      title: 'Nova objava u pretplaćenoj raspravi ({title})'
+      message: '{from} objavljuje u {post}'
+    tag:
+      discussion:
+        title: Nova objava s pretplaćenom oznakom
+        message: '{from} objavljuje u {title}'
+      post:
+        title: 'Nova objava u {title}'
+        message: '{from} objavljuje: {post}'
+    rename:
+      title: Rasprava preimenovana
+      message: '{from} preimenuje tvoju raspravu u {title}'
+    lock:
+      title: Rasprava zaključana
+      message: '{from} zaključava tvoju raspravu {title}'
+    delete:
+      title: Rasprava obrisana
+      message: '{from} briše tvoju raspravu {title}'
+    suspend:
+      title: Račun suspendiran
+      message: '{from} te isključio s foruma'
+    unsuspend:
+      title: Suspenzija računa maknuta
+      message: '{from} te uključio u forum'
+    flag:
+      title: Novoprijavljena objava
+      message: '{from} prijavljuje objavu: {post}'

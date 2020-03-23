@@ -6,7 +6,7 @@ fof-drafts:
     composer:
       title: Pohrani skicu
       alert: Skica pohranjena.
-      exit_alert: "Odbaci promjene skice?"
+      exit_alert: "Želite li odbaciti skicu?"
     dropdown:
       empty_text: Niste pohranili nikakvu skicu
       title: Skice

@@ -7,7 +7,7 @@ fof-terms:
                 signup-legal-text: Dodatni tekst na registracijskom obrascu
                 hide-updated-at: Ne prikazuj datum ažuriranja odredbi kad je dostupna nova inačica
                 date-format: Format datuma
-                date-format-help: "Prihvaćeni su svi valjani <a>Moment.js</a> formati. Ostavi polje prazno za zadani format."
+                date-format-help: "Prihvaćeni su svi valjani <a>Moment.js</a> formati. Ostavite polje prazno za zadani format."
         titles:
             policies: Odredbe
 
@@ -29,7 +29,7 @@ fof-terms:
             name: Naziv
             name-help: Ovaj naziv bit će prikazan pored okvira za kvačicu i kao naslov prozora ažuriranja.
             url: URL
-            url-help: URL koji pokazuje na stranicu gdje možeš pročitati uvjete. Otvorit će se u novoj kartici nakon klika.
+            url-help: "URL koji pokazuje na stranicu gdje možete pročitati uvjete: otvorit će se u novoj kartici nakon klika."
             update-message: Poruka ažuriranja
             update-message-help: Poruka prikazana korisnicima koji još nisu prihvatili posljednje uvjete.
             terms-updated-at: Ažurirano
@@ -56,19 +56,19 @@ fof-terms:
         accept-modal:
             title: Ažuriranje uvjeta
             updated-at: "Nova inačica uvjeta objavljena je {date}"
-            updated-recently: Nova inačica uvjeta izdana je od tvojeg posljednjeg posjeta
+            updated-recently: Uvjeti su izmijenjeni od vašeg posljednjeg posjeta
             i-accept: "Prihvaćam novu odredbu <a>{policy}</a>"
             accept: Potvrdi
-            close: Možete zatvoriti ovaj prozor
+            close: Smijete zatvoriti ovaj prozor
 
         state-modal:
-            title: "Stanje prihvaćanje uvjeta za {username}"
-            accepted-at: "Prihvaćeni {date}"
+            title: "Stanje prihvaćanja uvjeta za {username}"
+            accepted-at: "<strong>Prihvaćeni</strong> {date}"
             not-accepted: Nisu prihvaćeni
 
         update-alert:
-            must-accept-message: Privremeno smo vam ograničili račun dok ne pročitate nove uvjete korištenja.
-            can-accept-message: Nedavno smo izmijenili uvjete korištenja. Morate prihvatiti nove kako bi mogli nastaviti koristiti ovu stranicu.
+            must-accept-message: Ograničili smo vam račun dok ne pročitate i prihvatite nove uvjete korištenja.
+            can-accept-message: Nedavno smo izmijenili uvjete korištenja. Morate ih prihvatiti kako bi mogli nastaviti koristiti ovu stranicu.
             review: Klikni ovdje za pregled i prihvaćanje uvjeta
 
         user_controls:

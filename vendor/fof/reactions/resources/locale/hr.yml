@@ -1,24 +1,24 @@
 fof-reactions:
   forum:
     disabled-reaction: Reagiranje nije uspjelo, ozvježi stranicu
-    warning: Tvoja reakcija je pretvorena
+    warning: Vaša reakcija je pretvorena
     notification: '{username} reagira na tvoju objavu: {reaction}'
     settings:
-        notify_post_reacted_label: Netko reagira na moju objavu
-    reacting-own-post: Ne možeš reagirati na svoju objavu
+        notify_post_reacted_label: Kad netko reagira na moju objavu
+    reacting-own-post: Ne možete reagirati na vlastitu objavu
 
   admin:
     permissions:
         react_posts_label: Reagiraj na objave
 
     nav:
-      desc: Dodaj prilagođene reakcije i promijeni postavke
+      desc: Dodajte prilagođene reakcije i promijeni postavke
 
     page:
       reactions:
         title: Prilagođene reakcije
         reactions: Trenutne reakcije
-        Helptext: "Unesi naziv (identifikator) emojija ili Font-Awesome ikonice i označi tip koji želiš."
+        Helptext: "Unesite naziv (identifikator) emojija ili Font-Awesome ikonice i označite tip koji želiš."
         help:
           display: Prikaz
           identifier: Identifikator
@@ -26,7 +26,7 @@ fof-reactions:
       convert:
         help: "Ako ste tek ažurirali proširenje, vaše reakcije će trebati proći kroz pretvorbu. Ako ste tek instalirali ovo proširenje, možete sa sigurnoži ignorirati ovu poruku."
         button: Pretvori stare reakcije
-        converting: "Vaše reakcije su u fazi pretvorbe. Osvježite svoju stranicu nakon par minuta ne bi li vidjeli je li postupak završen (Vrijeme pretvorbe može potrajati ovisno o ukupno broju reakcija)"
+        converting: "Vaše reakcije su u fazi pretvorbe. Osvježite svoju stranicu nakon par minuta ne bi li vidjeli je li postupak završen (vrijeme pretvorbe može potrajati ovisno o ukupno broju reakcija)"
         converted: "Broj uspješno pretvorenih lajkova: {number}"
 
       settings:

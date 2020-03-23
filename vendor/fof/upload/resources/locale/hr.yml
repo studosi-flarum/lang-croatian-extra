@@ -34,7 +34,7 @@ fof-upload:
         client_id: Imgur ID klijenta
         title: Imgur postavke pohrane slika
       local:
-        cdn_url: Content Delivery URL (datoteke prefiksa)
+        cdn_url: "Content Delivery URL (datoteke prefiksa)"
         title: Postavke lokalne pohrane
       qiniu:
         title: Qiniu postavke pohrane
@@ -43,7 +43,7 @@ fof-upload:
         bucket: Bucket
       preferences:
         max_file_size: "Najveća veličina (u KB)"
-        mime_types: 'Podesi mime tip, predaj mapiranje prilagodnika'
+        mime_types: "Podesi mime tip, predaj mapiranje prilagodnika"
         title: Opće preference
       resize:
         max_width: Najveća širina slike

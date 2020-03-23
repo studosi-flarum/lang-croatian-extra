@@ -10,7 +10,7 @@ fof-byobu:
             send_pd: "Pošalji {username} poruku"
             cancel: Otkaži
         composer_private_discussion:
-            submit_button: Objavi privatnu raspravu
+            submit_button: Započni privatnu raspravu
             title_placeholder: Naslov privatne rasprave
         labels:
             recipients: "{count} primatelj|{count} primatelja"
@@ -19,7 +19,7 @@ fof-byobu:
             private_discussions: Privatna rasprava
             start_button: Nova privatna rasprava
         input:
-            search_recipients: Nađi primatelje, unesi bar tri znaka...
+            search_recipients: Nađite primatelje, unesite bar tri znaka...
         search:
             headings:
                 groups: Grupe dopuštenja
@@ -28,7 +28,7 @@ fof-byobu:
                 update_recipients: "Ažuriraj primatelje {title}"
                 add_recipients: Dodaj još primatelja u raspravu
             help:
-                add_recipients: Ova rasprava bit će vidljiva samo korisnicima koje ovdje odaberete. Potreban je barem 1 primatelj (ne uključujući vas)
+                add_recipients: Ova rasprava bit će vidljiva samo korisnicima koje ovdje odaberete. Potreban je barem 1 primatelj (izuzev vas)
                 update_recipients: Ova rasprava bit će vidljiva samo korisnicima koje ovdje odaberete.
         post:
             recipients_modified:
@@ -43,8 +43,8 @@ fof-byobu:
             dropdown_label: Privatne rasprave
 
         notifications:
-            pd_label: Netko me uključi u novu privatnu raspravu
-            pd_reply_label: Netko objavi nešto u privatnoj raspravi u kojoj sam primatelj
+            pd_label: Kad me netko uključi u novu privatnu raspravu
+            pd_reply_label: Kad netko objavi nešto u privatnoj raspravi u kojoj sam primatelj
             pd_reply_text: "{username} objavljuje u privatnoj raspravi čije sam dio"
             pd_text: "{username} započinje novu privatnu raspravu s tobom"
 
@@ -58,8 +58,8 @@ fof-byobu:
             view_private_discussions-when-flagged: Imaj uvid u prijavljene privatne rasprave
 
         settings:
-            use_tag_slug: Odredi kraticu oznake kojom će se automatski označavati privatni razgovori
-            use_tag_slug_help: Ostavi prazno kako bi korisnici mogli odabrati svoju oznaku, vrijedi samo za novostovrene privatne rasprave
+            use_tag_slug: Odredite kraticu oznake kojom će se automatski označavati privatni razgovori
+            use_tag_slug_help: Ostavite prazno kako bi korisnici mogli odabrati svoju oznaku, vrijedi samo za novostovrene privatne rasprave
 
     notifications:
         private_discussion_created:

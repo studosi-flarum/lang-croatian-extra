@@ -4,8 +4,8 @@ the-turk-edit-notifications:
         interacted_post_edited_text:          "{username} uređuje svoju objavu"
         post_edited_text:                     "{username} uređuje tvoju objavu"
       settings:
-        notify_interacted_post_edited_label:  Netko uredi objavu s kojom sam međudjelovao
-        notify_post_edited_label:             Netko uredi moju objavu
+        notify_interacted_post_edited_label:  Kad netko uredi objavu s kojom međudjelujem
+        notify_post_edited_label:             Kad netko uredi moju objavu
 
     admin:
       settings:

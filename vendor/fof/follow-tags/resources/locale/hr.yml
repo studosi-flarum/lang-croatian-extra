@@ -1,25 +1,25 @@
 fof-follow-tags:
   forum:
     settings:
-      notify_new_discussion_label: Netko stvori raspravu označenu s oznakom koju pratim
-      notify_new_post_label: Netko objavi u raspravi označenoj oznakom koju pratim
+      notify_new_discussion_label: Kad netko stvori raspravu označenu s oznakom koju pratim
+      notify_new_post_label: Kad netko objavi u raspravi označenoj oznakom koju pratim
 
 
     index:
-      follow_tag_button: Prati
+      follow_tag_button: Kreni pratiti
       unfollow_tag_button: Prestani pratiti
 
 
     sub_controls:
       follow_button: => fof-follow-tags.ref.follow
       following_button: => fof-follow-tags.ref.following
-      following_text: Obavijesti me kad je objavljena nova rasprava.
+      following_text: Obavijesti me kad je objavljena nova rasprava
       hiding_button: => fof-follow-tags.ref.hiding
-      hiding_text: Sakrij rasprave sa stranice Sve rasprave.
+      hiding_text: Sakrij rasprave sa stranice Sve rasprave
       ignoring_button: => fof-follow-tags.ref.ignoring
-      ignoring_text: Ne obavještavaj me.
+      ignoring_text: Ne obavještavaj me
       lurking_button: => fof-follow-tags.ref.lurking
-      lurking_text: Obavijesti me kad je objavljena nova rasprava ili objava.
+      lurking_text: Obavijesti me kad je objavljena nova rasprava ili objava
       not_following_button: Ne pratim
       not_following_text: "Obavijesti me samo na @spomen."
       notify_alert_tooltip: Obavijesti me kad je objavljena nova rasprava ili objava

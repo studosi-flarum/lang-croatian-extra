@@ -12,7 +12,7 @@ fof-links:
       delete_link_button: Obriši poveznicu
       delete_link_confirmation: "Jeste li sigurni da želite obrisati ovu poveznicu?"
       internal_link: "Je li ovo Flarum poveznica?"
-      open_newtab: "Otvori poveznicu u novoj kartici"
+      open_newtab: "Otvaraj poveznice u novoj kartici"
       submit_button: => core.ref.save_changes
       title: => fof-links.ref.create_link
       title_label: => fof-links.ref.title

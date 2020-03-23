@@ -1,0 +1,17 @@
+dem13n:
+  forum:
+    nickname:
+      head_title: Nadimak
+      new_nickname: Unesite novi nadimak
+      change: Promijeni nadimak
+      submit_button: => core.ref.save_changes
+  admin:
+    nickname:
+      settings_modal_title: Nickname Changer postavke
+      unlimited_nickname_change: Neograničena promjena nadimka
+      allow_nickname_change: Dozvoli promjenu nadimka
+      allow_nickname_unique: Dozvoli identične nadimke
+      regex: Regularni izraz za potvrdu
+      min_char: Najmanji broj znakova u nadimku
+      max_char: Najveći broj znakova u nadimku
+      submit_button: => core.ref.save_changes

@@ -12,7 +12,7 @@ fof-gamification:
     ranking:
       rank: Mjesto
       name: Korisnik
-      amount: bod.
+      amount: Bodovi
     notification:
       upvote: "{username} goreglasuje tvoju objavu"
       downvote: "{username} doljeglasuje tvoju objavu"
@@ -52,12 +52,12 @@ fof-gamification:
         title: Glasovi
         vote_color: Boja glasova
         icon_name: Glasačka ikonica
-        icon_help: "Unesi neku Font-Awesome ikonicu koja ima sufikse -up i -down. Na primjer: arrow, thumbs, chevron"
+        icon_help: "Unesite neku Font-Awesome ikonicu koja ima sufikse -up i -down. Na primjer: arrow, thumbs, chevron"
       save_settings: Spremi postavke
       convert:
         button: Pretvori lajkove u goreglasove
-        help: "Pretvori sve lajkove iz flarum-ext-likes proširenja u goreglasove te izračunaj vatrenost svih postojećih rasprava."
-        converting: "Tvoji lajkovi se pretvaraju. Osvježi stranicu nakon par minuta, možda će se proces do tada završiti. (Vrijeme pretvorbe može potrajati ovisno o ukupnom broju lajkova)"
+        help: "Pretvorite sve lajkove iz flarum-ext-likes proširenja u goreglasove te izračunaj vatrenost svih postojećih rasprava."
+        converting: "Vaši lajkovi se pretvaraju. Osvježi stranicu nakon par minuta, možda će se proces do tada završiti. (Vrijeme pretvorbe može potrajati ovisno o ukupnom broju lajkova)"
         converted: "Uspješno pretvoreni lajkovi: {number}"
       ranks:
         title: Zasluge

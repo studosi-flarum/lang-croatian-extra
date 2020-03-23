@@ -7,9 +7,9 @@ fof-polls:
       vote: Glasuj na anketama
 
   forum:
-    days_remaining: "Anketa završava {time}."
-    no_permission: Nemaš ovlasti za glasanje
-    poll_ended: Ova anketa je završena.
+    days_remaining: "Anketa se zatvara {time}."
+    no_permission: Nemate ovlasti za glasanje
+    poll_ended: Ova anketa je zatvorena.
     public_poll: Pregledaj glasače
 
     composer_discussion:
@@ -21,9 +21,9 @@ fof-polls:
       add_option_label: Dodaj odgovor
       date_placeholder: Datum kraja ankete (neobavezno)
       edit_title: Uredi anketu
-      include_question: Moraš nešto pitati
+      include_question: Morate postaviti pitanje
       max: Moguće je ponuditi najviše 10 odgovora
-      min: Moraš ponuditi barem 2 odgovora
+      min: Morate ponuditi barem 2 odgovora
       no_voters: Nema glasova
       option_placeholder: Odgovor
       options_label: Odgovori
