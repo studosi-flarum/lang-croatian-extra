@@ -2,8 +2,8 @@ fof-polls:
   admin:
     permissions:
       moderate: Uređuj i uklanjaj ankete
-      self_edit: Dozvoli korisnicima da uređuju svoje objave
-      start: Napravi anketu
+      self_edit: Dozvoljavaj uređivanje vlastitih anketa
+      start: Stvaraj ankete
       vote: Glasuj na anketama
 
   forum:
@@ -27,7 +27,7 @@ fof-polls:
       no_voters: Nema glasova
       option_placeholder: Odgovor
       options_label: Odgovori
-      public_poll_label: Dozvoli ljudima da pregledavaju glasače
+      public_poll_label: Omogući pregledavanje glasača svima
       question_placeholder: Pitanje
       submit: Predaj
 

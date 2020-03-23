@@ -19,7 +19,7 @@ fof-user-directory:
                 least_discussions: "Po broju rasprava (uzlazno)"
     admin:
         permissions:
-            view_user_directory: Pregledaj direktorij korisnika
+            view_user_directory: Pregledavaj direktorij korisnika
         settings:
             title: User Directory postavke
             link: Dodaj poveznicu na naslovnicu kako bi ga korisnici mogli pregledavati

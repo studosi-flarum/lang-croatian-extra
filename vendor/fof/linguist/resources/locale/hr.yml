@@ -2,7 +2,7 @@ fof-linguist:
     admin:
         menu:
             title: Linguist
-            description: Podesi prijevode.
+            description: Uređuj prijevode.
         buttons:
             apply: Primijeni
             reset: Obnovi izvornik

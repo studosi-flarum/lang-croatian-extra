@@ -2,7 +2,7 @@ veroz1-users-list:
   admin:
     nav:
       users_button: => veroz1-users-list.ref.users_title
-      users_text: Pregledaj popis korisnika.
+      users_text: Pregledajte popis korisnika.
     page:
       about_text:  Pregledaj popis registriranih korisnika.
       online_text: => core.forum.user.online_text

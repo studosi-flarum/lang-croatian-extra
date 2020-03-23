@@ -22,14 +22,14 @@ fof-links:
 
     # These strings are used in the Links page.
     links:
-      about_text: Upravljaj poveznicama primarnog izbornika.
+      about_text: Upravljajte poveznicama primarnog izbornika.
       create_button: => fof-links.ref.create_link
       links: => fof-links.ref.links
 
     # These strings are used in the navigation bar.
     nav:
       links_button: => fof-links.ref.links
-      links_text: Upravljaj primarnim popisom navigacijskih elemenata.
+      links_text: Upravljajte primarnim popisom navigacijskih elemenata.
 
   # Strings in this namespace are referenced by two or more unique keys.
   ref:

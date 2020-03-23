@@ -2,7 +2,7 @@ the-turk-mathren:
     admin:
         settings:
             title:                    MathRen
-            description:              "Podesi iscrtavanje TeX-a."
+            description:              "Podesite iscrtavanje TeX-a."
             wrapperOptionsHeading:    Postavke omotnice
             mathClasses:              "Nazivi razreda za <code>span</code> oznaku"
             mathClassesHelp:          "Jednostavno je stilizirati <code>span</code>omotnice koristeći nazive razreda."

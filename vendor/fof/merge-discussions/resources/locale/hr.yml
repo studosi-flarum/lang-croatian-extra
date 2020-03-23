@@ -20,7 +20,7 @@ fof-merge-discussions:
 
   admin:
     permissions:
-      merge_discussions_label: Spoji rasprave
+      merge_discussions_label: Spajaj rasprave
 
   api:
     error:

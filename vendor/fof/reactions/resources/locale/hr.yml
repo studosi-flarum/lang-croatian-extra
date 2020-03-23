@@ -12,7 +12,7 @@ fof-reactions:
         react_posts_label: Reagiraj na objave
 
     nav:
-      desc: Dodajte prilagođene reakcije i promijeni postavke
+      desc: Dodajte prilagođene reakcije i promijeni postavke.
 
     page:
       reactions:

@@ -44,9 +44,9 @@ fof-terms:
                 Više detalja o dostupnim odabirima možete pronaći na <a>extension wiki</a>.
 
         permissions:
-            see-user-policies-state: Vidi stanje korisničkih odredbi
-            postpone-policies-accept: Smije odgoviti prihvaćanje novih uvjeta
-            export-policies: Izvezi sve podatke korisnika i odredbi
+            see-user-policies-state: Pregledavaj stanje korisničkih odredbi
+            postpone-policies-accept: Odgođavaj prihvaćanje novih uvjeta
+            export-policies: Izvozi sve podatke korisnika i odredbi
 
     forum:
         signup:

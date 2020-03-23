@@ -1,7 +1,7 @@
 fof-split:
     admin:
         permissions:
-            split_discussion_label: Odvoji objave od rasprava
+            split_discussion_label: Odvajaj objave od rasprava
     forum:
         post:
             was_split_to: "{count} objava je razdvojena u {target}.|Nekoliko objava su razdvojene u {target} ({count})."

@@ -4,7 +4,7 @@ fof-upload:
       save: Pohrani postavke
     help_texts:
       description: |
-        Postavi usluge predaje i preference.
+        Postavite usluge predaje i preference.
       disable-download-logging: |
         Onemogući zabilježavanje svakog korisničkog preuzimanja. Držanje ovog uključenim omogućava ti pregledavanje broja preuzimanja i druge metrike u bližoj budućnosti.
       disable-hotlink-protection: |
@@ -55,7 +55,7 @@ fof-upload:
         title: Vodeno žigosaj slike
         toggle: Vodeno žigosaj slike
     permissions:
-      download_label: Preuzmi datoteke
+      download_label: Preuzimaj datoteke
       upload_label: Predaj datoteke
     templates:
       file: Zadani predložak datotečnih preuzimanja

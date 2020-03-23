@@ -26,11 +26,11 @@ fof-gamification:
     mod_item: Pregledaj glasače
   admin:
     permissions:
-      vote_label: Glasaj na objave
-      see_votes_label: Pregledaj glasove
-      see_ranking_page: Pregledaj stranicu zasluga
+      vote_label: Glasuj na objavama
+      see_votes_label: Pregledavaj glasove
+      see_ranking_page: Pregledavaj stranicu zasluga
     nav:
-      desc: Gamification za vašu Flarum zajednicu
+      desc: Gamification za vašu Flarum zajednicu.
     page:
       rankings:
         blocked:
