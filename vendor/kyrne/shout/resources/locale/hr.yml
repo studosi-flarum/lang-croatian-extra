@@ -1,38 +1,38 @@
 kyrne-shout:
   admin:
     permissions:
-      start_label: Start private conversations
+      start_label: Započinji privatne razgovote
   forum:
     dropdown:
-      tooltip: Conversations
+      tooltip: Razgovori
     setup:
-      title: Setup Private Messaging
-      header_setup: Enter your account login password to setup private messaging.
-      header_import: Enter your account login password to import your private messages.
-      button_import: Import
-      button_setup: Setup
-      success: Private messaging is now ready, your page will now reload...
+      title: Postavi privatne razgovore
+      header_setup: Unesite lozinku za forum kako bi postavili privatne razgovore.
+      header_import: Unesite lozinku za forum kako bi uvezli privatne razgovore.
+      button_import: Uvezi
+      button_setup: Postavi
+      success: Privatni razgovori su postavljeni, osvježavam stranicu...
     modal:
-      title: Start Conversation
-      help: Start typing a username to start a chat.
-      help_start: "Type your first message. This will be the only message you can send until {username} responds. Click the user to select a different recipient."
-      search_recipients: Enter username...
-      submit: Send & Start Conversation
-      copied: Your message has been copied to the clipboard.
-      more_users: If you don't see the user you are looking for, they don't have private messaging setup.
-      already: "You already have a conversation with {username}."
-    user_modal_alert: "{username} has private messaging setup, their password cannot be safely changed."
+      title: Započni razgovor
+      help: Upišite korisničko ime kako bi započeli čavrljanje
+      help_start: "Pošaljite vašu prvu poruku. Ovo će biti jedina poruka koju možete poslati dok {username} ne odgovori. Kliknite na korisnika kako bi promijenili primatelja."
+      search_recipients: Unesite korisničko ime...
+      submit: Pošalji i započni razgovor
+      copied: Vaša poruka je kopirana u međuspremnik.
+      more_users: Ako ne vidite korisnika kojeg tražite vjerojatno još nema postavljene privatne poruke.
+      already: "Već razgovarate s {username}."
+    user_modal_alert: "{username} ima postavljene privatne razgovore, lozinka ne može biti promijenjena na siguran način."
     chat:
-      chat_with: "Chat with {username}"
-      messages_multiple: "{count} total messages"
-      messages_single: New conversation
-      start: Start Conversation
-      cant_start: Can't Start Conversation
-      text_placeholder: Type your message
-      send: Send Message
-      recovery_message: "System message: Encryption sync lost and recovered"
-      failed_message: "Failed to decrypt message, attempting recovery method #{method}"
-      cant_send: "You can't send a message until {username} responds (first message only)"
-      cant_send_toomany: "Please wait for {username}'s reply before sending more messages"
-      failed_to_decrypt: "[Failed to decrypt]"
-      start_of_conversation: Start of Conversation
+      chat_with: "Čavrljanje s {username}"
+      messages_multiple: "Ukupno poruka: {count}"
+      messages_single: Novi razgovor
+      start: Započni razgovor
+      cant_start: Onemogućeno započinjanje razgovora
+      text_placeholder: Upiši poruku
+      send: Pošalji poruku
+      recovery_message: "Poruka sustava: Enkripcija ponovno sinkronizirana"
+      failed_message: "Neuspjeh prilikom dekripcije poruke, pokušavam s metodom #{method}"
+      cant_send: "Ne možete poslati poruku dok {username} ne odgovori (ovo se događa samo kod prve poruke)"
+      cant_send_toomany: "Molimo pričekajte da {username} odgovori prije slanja još poruka"
+      failed_to_decrypt: "[Neuspjeh prilikom dekripcije]"
+      start_of_conversation: Početak razgovora
