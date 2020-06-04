@@ -5,7 +5,7 @@ fof-byobu:
                 tooltip: Privatna rasprava
         buttons:
             add_recipients: Primatelji
-            submit: OK
+            submit: U redu
             edit_recipients: Uredi primatelje
             send_pd: "Pošalji {username} poruku"
             cancel: Otkaži
@@ -14,12 +14,12 @@ fof-byobu:
             title_placeholder: Naslov privatne rasprave
         labels:
             recipients: "{count} primatelj|{count} primatelja"
-            user_deleted: -obrisano-
+            user_deleted: -nepostojeći korisnik-
         nav:
             private_discussions: Privatna rasprava
             start_button: Nova privatna rasprava
         input:
-            search_recipients: Nađite primatelje, unesite bar tri znaka...
+            search_recipients: Pretražite primatelje, unesite bar tri znaka...
         search:
             headings:
                 groups: Grupe dopuštenja
@@ -32,9 +32,9 @@ fof-byobu:
                 update_recipients: Ova rasprava bit će vidljiva samo korisnicima koje ovdje odaberete.
         post:
             recipients_modified:
-                added_and_removed: "{username} dodaje {added} i uklanja {removed}."
-                added: "{username} dodaje {added}."
-                removed: "{username} uklanja {removed}."
+                added_and_removed: "{username} uključuje {added} u raspravu i isključuje {removed} iz rasprave."
+                added: "{username} uključuje {added} u raspravu."
+                removed: "{username} isključuje {removed} iz rasprave."
         user:
             settings:
                 block_pd: Odbij privatne rasprave
@@ -45,8 +45,8 @@ fof-byobu:
         notifications:
             pd_label: Kad me netko uključi u novu privatnu raspravu
             pd_reply_label: Kad netko objavi nešto u privatnoj raspravi u kojoj sam primatelj
-            pd_reply_text: "{username} objavljuje u privatnoj raspravi čije sam dio"
-            pd_text: "{username} započinje novu privatnu raspravu s tobom"
+            pd_reply_text: "Kad {username} objavi nešto u privatnoj raspravi čije sam dio"
+            pd_text: "Kad {username} započne novu privatnu raspravu sa mnom"
 
     admin:
         permission:
@@ -63,6 +63,6 @@ fof-byobu:
 
     notifications:
         private_discussion_created:
-            title: "[Private Discussion] korisnik započinje novu privatnu raspravu s tobom"
+            title: "[Privatna rasprava] korisnik započinje novu privatnu raspravu s tobom"
         private_discussion_replied:
-            title: "[Private Discussion] korisnik objavljuje u privatnoj raspravi"
+            title: "[Privatna rasprava] korisnik objavljuje u privatnoj raspravi"

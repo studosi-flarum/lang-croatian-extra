@@ -38,7 +38,7 @@ fof-polls:
 
     tooltip:
       badge: Anketa
-      votes: "1 glas|Broj glasova: {count}"
+      votes: "Broj glasova: {count}|Broj glasova: {count}"
 
     votes_modal:
       title: Glasači

@@ -6,10 +6,10 @@ clarkwinkelmann-emojionearea:
     admin:
         settings:
             title: EmojioneArea postavke
-            enableSearch: Omogući pretragu
-            enableRecent: Omogući nedavno
-            enableTones: Omogući tonove
+            enableSearch: Omogući tekstualnu pretragu
+            enableRecent: Omogući prijedlog nedavno korištenih emojija
+            enableTones: Omogući odabir tonova
             filtersPosition: Premjesti kategorije na dno
-            searchPosition: Premjesti pretragu i tonove na dno
+            searchPosition: Premjesti tekstualnu pretragu i odabir tonova na dno
             hideFlarumButton: Sakrij Flarumov gumbić za odabir emojija
             hideFlarumButtonHelp: Emoji Picker proširenje se mora uključiti uz Emoji proširenje da bi ove postavke radile

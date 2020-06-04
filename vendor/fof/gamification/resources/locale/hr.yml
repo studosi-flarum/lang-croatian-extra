@@ -5,37 +5,37 @@ core:
       
 fof-gamification:
   forum:
-    votes: Glasovi
-    vote_title: Prikaži glasače
+    votes: Mišljenja
+    vote_title: Prikaži mišljenja
     nav:
-      name: Zasluge
+      name: Face foruma
     ranking:
       rank: Mjesto
       name: Korisnik
       amount: Bodovi
     notification:
-      upvote: "{username} goreglasuje tvoju objavu"
-      downvote: "{username} doljeglasuje tvoju objavu"
+      upvote: "{username} podržava tvoju objavu"
+      downvote: "{username} osuđuje tvoju objavu"
     user:
       points: "Bodovi: {points}"
       rank: "{rank}"
     modal:
-      title: Glasači
-      upvotes_label: 'Goreglasači:'
-      downvotes_label: 'Doljeglasači:'
-    mod_item: Pregledaj glasače
+      title: Mišljenja
+      upvotes_label: 'Podržavaju:'
+      downvotes_label: 'Osuđuju:'
+    mod_item: Pregledaj mišljenja
   admin:
     permissions:
-      vote_label: Glasuj na objavama
-      see_votes_label: Pregledavaj glasove
-      see_ranking_page: Pregledavaj stranicu zasluga
+      vote_label: Izražavaj mišljenje na objavama
+      see_votes_label: Pregledavaj mišljenja
+      see_ranking_page: Pregledavaj face foruma
     nav:
       desc: Gamification za vašu Flarum zajednicu.
     page:
       rankings:
         blocked:
           placeholder: CDK2020, Ralkage, AngelAvila
-          title: Ignorirani korisnici
+          title: Zanemareni korisnici
           help: Ovi korisnici neće biti prikazani na stranici zasluga. Korisnička imena trebaju biti odvojena zarezom i razmakom.
         title: Stranica zasluga
         enable: Dozvoli prilagođene slike
@@ -46,18 +46,18 @@ fof-gamification:
         points_title: Predložak za bodove
         points_placeholder: "Bodovi: "
         color_holder: '#ffffff'
-        auto_upvote: Automatski goreglasaj vlastite objave
-        rate_limit: "Uvedi vremensko ograničenje za glasovanje (10 sekundi)"
-        discussion_page: Prikaži broj ukupnih glasova na popisu rasprava
-        title: Glasovi
-        vote_color: Boja glasova
-        icon_name: Glasačka ikonica
+        auto_upvote: Automatski podrži vlastite objave
+        rate_limit: "Uvedi vremensko ograničenje za promjenu mišljenja (10 sekundi)"
+        discussion_page: Prikaži broj izraženih mišljenja na popisu rasprava
+        title: Mišljenja
+        vote_color: Boja mišljenja
+        icon_name: Ikonica mišljenja
         icon_help: "Unesite neku Font-Awesome ikonicu koja ima sufikse -up i -down. Na primjer: arrow, thumbs, chevron"
       save_settings: Spremi postavke
       convert:
-        button: Pretvori lajkove u goreglasove
-        help: "Pretvorite sve lajkove iz flarum-ext-likes proširenja u goreglasove te izračunaj vatrenost svih postojećih rasprava."
-        converting: "Vaši lajkovi se pretvaraju. Osvježi stranicu nakon par minuta, možda će se proces do tada završiti. (Vrijeme pretvorbe može potrajati ovisno o ukupnom broju lajkova)"
+        button: Pretvori lajkove u podršku
+        help: "Pretvorite sve lajkove iz flarum-ext-likes proširenja u podršku te izračunaj vatrenost svih postojećih rasprava."
+        converting: "Vaši lajkovi se pretvaraju. Osvježite stranicu nakon par minuta, možda će proces do tada završiti. (Vrijeme pretvorbe može potrajati ovisno o ukupnom broju lajkova)"
         converted: "Uspješno pretvoreni lajkovi: {number}"
       ranks:
         title: Zasluge

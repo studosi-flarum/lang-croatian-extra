@@ -16,7 +16,7 @@ fof-merge-discussions:
       merge: => fof-merge-discussions.ref.merge
 
     post:
-      merged: "Spojena <b>{count}</b> objava iz {titles}.|Spojeno nekoliko objava iz {titles} (<b>{count}</b>)."
+      merged: "Spojene objave iz {titles} (<b>{count}</b>).|Spojene objave iz {titles} (<b>{count}</b>)."
 
   admin:
     permissions:

@@ -11,7 +11,7 @@ dem13n:
       unlimited_nickname_change: Neograničena promjena nadimka
       allow_nickname_change: Dozvoli promjenu nadimka
       allow_nickname_unique: Dozvoli identične nadimke
-      regex: Regularni izraz za potvrdu
+      regex: Regularni izraz za provjeru ispravnosti nadimka
       min_char: Najmanji broj znakova u nadimku
       max_char: Najveći broj znakova u nadimku
       submit_button: => core.ref.save_changes

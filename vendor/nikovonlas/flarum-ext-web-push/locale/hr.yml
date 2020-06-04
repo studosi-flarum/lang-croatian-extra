@@ -19,17 +19,17 @@ nikovonlas-webpush:
       title: Objava lajkana
       message: '{from} lajka tvoju objavu u {post}'
     mention-post:
-      title: 'Novi odgovor u {title}'
+      title: 'Odgovor u {title}'
       message: '{from} odgovara na objavu u {post}'
     mention:
-      title: 'Netko te spominje u {title}'
+      title: 'Spomen u {title}'
       message: '{from} te spominje u {post}'
     post:
       title: 'Nova objava u pretplaćenoj raspravi ({title})'
       message: '{from} objavljuje u {post}'
     tag:
       discussion:
-        title: Nova objava s pretplaćenom oznakom
+        title: Nova objava s praćenom oznakom
         message: '{from} objavljuje u {title}'
       post:
         title: 'Nova objava u {title}'

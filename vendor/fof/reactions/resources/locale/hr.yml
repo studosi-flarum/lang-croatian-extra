@@ -1,6 +1,6 @@
 fof-reactions:
   forum:
-    disabled-reaction: Reagiranje nije uspjelo, ozvježi stranicu
+    disabled-reaction: Reagiranje nije uspjelo, ozvježite stranicu
     warning: Vaša reakcija je pretvorena
     notification: '{username} reagira na tvoju objavu: {reaction}'
     settings:

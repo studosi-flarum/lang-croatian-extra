@@ -26,8 +26,8 @@ fof-follow-tags:
       notify_email_tooltip: Pošalji mi email kad je objavljena nova rasprava ili objava
 
     notifications:
-      new_discussion_text: "{username} započinje"
-      new_post_text: "{username} objavljuje"
+      new_discussion_text: "{username} započinje raspravu s praćenom oznakom"
+      new_post_text: "{username} objavljuje u raspravi s praćenom oznakom"
 
   email:
     newDiscussionInTag: "[Tag | New Discussion] title"

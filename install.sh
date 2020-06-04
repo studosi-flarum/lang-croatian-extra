@@ -37,4 +37,4 @@ prompt_flarum_root()
 }
 
 prompt_flarum_root
-rsync -a "./vendor/" "${FLARUM_ROOT}/vendor/"
+rsync -aK "./vendor/" "${FLARUM_ROOT}/vendor/"

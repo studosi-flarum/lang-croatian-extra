@@ -1,9 +1,9 @@
 fof-formatting:
   admin:
     plugins:
-      Autoimage: Pretvori URLove slike u ugrađene slike
+      Autoimage: Pretvori URLove slika u ugrađene slike
       Autovideo: Pretvori URLove videozapisa u ugrađene videozapise
-      FancyPants: Koristi otmjenu tipografiju
+      FancyPants: Koristi fancy tipografiju
       HTMLEntities: Koristi HTML entitete
       MediaEmbed: Ugradi sadržaj s dozvoljenih stranica
       PipeTables: ASCII-stilirane tablice

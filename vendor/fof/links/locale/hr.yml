@@ -34,6 +34,6 @@ fof-links:
   # Strings in this namespace are referenced by two or more unique keys.
   ref:
     create_link: Stvori poveznicu
-    links: Poveznice
+    links: Links
     title: Naslov
     url: URL

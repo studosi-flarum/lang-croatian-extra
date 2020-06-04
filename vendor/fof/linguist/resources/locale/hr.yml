@@ -23,10 +23,10 @@ fof-linguist:
             for-extension-unavailable: >
                 Prijevodi u očekivanom nazivnom prostoru "{namespace}" nisu pronađeni.
                 Možda ovo proširenje nema prevodivi tekst ili koristi različiti nazivni prostor.
-                Pokušaj locirati te prijevode koristeći polje za pretragu.
-            results: "Prikazani poklapajući prijevodi: {shown} od {total}"
+                Pokušajte locirati te prijevode koristeći polje za pretragu.
+            results: "Prikazani poklapajući prijevodi: {shown} / {total}"
         clear-cache:
             text: >
-                Novi prijevodi nisu još uvedeni
+                Novi prijevodi nisu još u primjeni
                 Treba primijetiti: brisanje predmemorije može trenutačno usporiti forum.
             button: Prebriši predmemoriju

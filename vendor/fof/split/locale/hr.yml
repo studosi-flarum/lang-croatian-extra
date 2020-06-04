@@ -4,8 +4,8 @@ fof-split:
             split_discussion_label: Odvajaj objave od rasprava
     forum:
         post:
-            was_split_to: "{count} objava je razdvojena u {target}.|Nekoliko objava su razdvojene u {target} ({count})."
-            was_split_from: "{count} objava je razdvojena od {target}.|Nekoliko objava je razdvojeno od {target} ({count})."
+            was_split_to: "Nekoliko objava je razdvojeno u {target} ({count}).|Nekoliko objava je razdvojeno u {target} ({count})."
+            was_split_from: "Nekoliko objava je razdvojeno od {target} ({count}).|Nekoliko objava je razdvojeno od {target} ({count})."
         split:
             from: Razdvoji od ovdje
             to: Razdvoji do ovdje
