@@ -40,6 +40,8 @@ Change your Flarum root folder ownership to `www-data` by running `sudo chown ww
 - FoF Terms ([fof/terms](https://github.com/FriendsOfFlarum/terms))
 - FoF Upload ([fof/upload](https://github.com/FriendsOfFlarum/upload))
 - FoF User Directory ([fof/user-directory](https://github.com/FriendsOfFlarum/user-directory))
+- Kyrne Shout ([kyrne/shout](https://github.com/KyrneDev/Shout-public))
+- Kyrne Websockets ([kyrne/websockets](https://extiverse.com/extension/kyrne/websocket))
 - MathRen ([the-turk/flarum-mathren](https://github.com/the-turk/flarum-mathren))
 - Nickname Changer ([dem13n/nickname-changer](https://github.com/dem13n/nickname-changer))
 - ReFlar Cookie Consent ([reflar/cookie-consent](https://github.com/Dem13n/nickname-changer))
