@@ -43,10 +43,10 @@ fof-byobu:
             dropdown_label: Privatne rasprave
 
         notifications:
-            pd_label: Kad me netko uključi u novu privatnu raspravu
-            pd_reply_label: Kad netko objavi nešto u privatnoj raspravi u kojoj sam primatelj
-            pd_reply_text: "Kad {username} objavi nešto u privatnoj raspravi čije sam dio"
-            pd_text: "Kad {username} započne novu privatnu raspravu sa mnom"
+            pd_label: Nova privatna rasprava
+            pd_reply_label: Nova objava u privatnoj raspravi
+            pd_reply_text: "{username} sudjeluje u privatnoj raspravi"
+            pd_text: "{username} započinje novu raspravu s tobom"
 
     admin:
         permission:
