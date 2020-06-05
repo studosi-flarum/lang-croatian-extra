@@ -6,10 +6,14 @@ fof-reactions:
     settings:
         notify_post_reacted_label: Kad netko reagira na moju objavu
     reacting-own-post: Ne možete reagirati na vlastitu objavu
+    modal:
+        title: Reakcije
+    mod_item: Pregledaj reakcije
 
   admin:
     permissions:
         react_posts_label: Reagiraj na objave
+        see_reactions_label: Vidi tko je reagirao na objave
 
     nav:
       desc: Dodajte prilagođene reakcije i promijeni postavke.
