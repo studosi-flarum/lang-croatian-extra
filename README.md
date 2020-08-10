@@ -20,7 +20,7 @@ Change your Flarum root folder ownership to `www-data` by running `sudo chown ww
 
 # Supported extensions
 
-- Askvortsov Copy Links ([askvortskov/flarum-copy-links](https://github.com/askvortsov/flarum-copy-links))
+- Copy Links ([askvortskov/flarum-copy-links](https://github.com/askvortsov/flarum-copy-links))
 - Edit Notifications ([the-turk/flarum-edit-notifications](https://github.com/the-turk/flarum-edit-notifications))
 - Emoji Picker ([clarkwinkelmann/flarum-ext-emojionearea](https://github.com/clarkwinkelmann/flarum-ext-emojionearea))
 - FancyBox ([the-turk/flarum-ext-fancybox](https://github.com/the-turk/flarum-ext-fancybox))
