@@ -9,7 +9,7 @@ This contains some Croatian locales for Flarum extensions we're using on our for
 
 Chown your flarum root folder recursively. For an example, if your flarum root folder is at `/var/www/html/flarum`, you can do this by `sudo chown username:username /var/www/html/flarum -R`, where `username` is the name of your user account.
 
-Execute `install.sh` in the root directory of this project - it will prompt you to enter your Flarum root directory path - do so.
+Execute `bash install.sh` in the root directory of this project - it will prompt you to enter your Flarum root directory path - do so.
 
 The script will just run rsync with the vendor folder. What this means essentially is that it will merge this projects `vendor` folder with the one in the Flarum rood directory. Even if you don't have all the extensions installed, the copied locale files shouldn't create trouble for you.
 
