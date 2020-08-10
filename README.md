@@ -24,7 +24,7 @@ Change your Flarum root folder ownership to `www-data` by running `sudo chown ww
 - Edit Notifications ([the-turk/flarum-edit-notifications](https://github.com/the-turk/flarum-edit-notifications))
 - Emoji Picker ([clarkwinkelmann/flarum-ext-emojionearea](https://github.com/clarkwinkelmann/flarum-ext-emojionearea))
 - FancyBox ([the-turk/flarum-ext-fancybox](https://github.com/the-turk/flarum-ext-fancybox))
-- [s]Flagrow Users List ([veroz1/users-list](https://github.com/VeroZ1/users-list))[/s] **deprecated**
+- ~~Flagrow Users List ([veroz1/users-list](https://github.com/VeroZ1/users-list))~~ **deprecated**
 - FoF Byobu ([fof/byobu](https://github.com/FriendsOfFlarum/byobu))
 - FoF Drafts ([fof/drafts](https://github.com/FriendsOfFlarum/drafts))
 - FoF Follow Tags ([fof/follow-tags](https://github.com/FriendsOfFlarum/follow-tags))
@@ -38,21 +38,21 @@ Change your Flarum root folder ownership to `www-data` by running `sudo chown ww
 - FoF Night Mode ([fof/nightmode](https://github.com/FriendsOfFlarum/nightmode))
 - FoF Polls ([fof/polls](https://github.com/FriendsOfFlarum/polls))
 - FoF Reactions ([fof/reactions](https://github.com/FriendsOfFlarum/reactions))
-- [s]FoF reCAPTCHA ([fof/recaptcha](https://github.com/FriendsOfFlarum/recaptcha))[/s] **deprecated**
+- ~~FoF reCAPTCHA ([fof/recaptcha](https://github.com/FriendsOfFlarum/recaptcha))~~ **deprecated**
 - FoF Share Social ([fof/share-social](https://github.com/FriendsOfFlarum/share-social))
 - FoF Split ([fof/split](https://github.com/FriendsOfFlarum/split))
 - FoF Terms ([fof/terms](https://github.com/FriendsOfFlarum/terms))
 - FoF Upload ([fof/upload](https://github.com/FriendsOfFlarum/upload))
 - FoF User Directory ([fof/user-directory](https://github.com/FriendsOfFlarum/user-directory))
 - Group Invitation ([clarkwinkelmann/flarum-ext-group-invitation](https://github.com/clarkwinkelmann/flarum-ext-group-invitation))
-- [s]Kyrne Shout ([kyrne/shout](https://github.com/KyrneDev/Shout-public))[/s] **deprecated**
+- ~~Kyrne Shout ([kyrne/shout](https://github.com/KyrneDev/Shout-public))~~ **deprecated**
 - Kyrne Websockets ([kyrne/websockets](https://extiverse.com/extension/kyrne/websocket))
 - MathRen ([the-turk/flarum-mathren](https://github.com/the-turk/flarum-mathren))
 - Nickname Changer ([dem13n/nickname-changer](https://github.com/dem13n/nickname-changer))
 - ReFlar Cookie Consent ([reflar/cookie-consent](https://github.com/Dem13n/nickname-changer))
 - Web Push Notifications ([nikovonlas/flarum-ext-web-push](https://github.com/NikoVonLas/flarum-ext-web-push))
 
-\* - **0.1.9 due to incompatibility with never versions**
+\* - **only 0.1.9 due to incompatibility with never versions**
 
 # Repository owner of some of the above projects?
 
