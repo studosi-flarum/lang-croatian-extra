@@ -1,59 +1,90 @@
 the-turk-mathren:
-    admin:
-        settings:
-            title:                    MathRen
-            description:              "Podesite iscrtavanje TeX-a."
-            wrapperOptionsHeading:    Postavke omotnice
-            mathClasses:              "Nazivi razreda za <code>span</code> oznaku"
-            mathClassesHelp:          "Jednostavno je stilizirati <code>span</code>omotnice koristeći nazive razreda."
-            blockMathClass:           "<code>span</code> oznaka za blokovske izraze"
-            inlineMathClass:          "<code>span</code> oznaka za izraze unutar retka"
-            wrapperStyle:             "Stiliziraj <code>span</code> omotnice"
-            katexOptionsHeading:      KaTeX postavke
-            enableFleqn:              "Omogući flush left jednadžbe (fleqn)"
-            enableLeqno:              "Omogući brojeve jednadžbi slijeva (leqno)"
-            delimiters:               Razdvojnici
-            delimitersHelp:           "Odvoji izraze zarezom. <strong>%e%</strong> predstavlja neki matematički izraz."
-            mainBlockDelimiter:       "Glavni <strong>BBCode</strong> razdvojnik za blokovske izraze"
-            mainInlineDelimiter:      "Glavni <strong>BBCode</strong> razdvojnik za izraze unutar retka"
-            aliasBlockDelimiters:     Aliasni razdvojnici za blokovske izraze
-            aliasInlineDelimiters:    Aliasni razdvojnici za izraze unutar retka
-            aliasDelimitersHelp:      >-
-                        Oni su <strong>zamjenski nazivi</strong> za <em>glavne BBCode razdvojnike</em>. Ako imate posebne razdvojnike (npr. <code>$$</code>)
-                        na popisu aliasnih razdvojnika, MathRen će pretražiti cijelu objavu za ove dodatne razdvojnike prilikom pohrane objave i pokušati zamijeniti ih
-                        s glavnim BBCode razdvojnicima. To može povećati vrijeme čekanja prilikom objave. Preporuča se korištenje dodatnih BBCode razdvojnika umjesto
-                        korištenja posebnih kako bi se ovakvo nešto izbjeglo.
-            ignoringExpressions:      Ignorirani izrazi
-            ignoringExpressionsHelp:  Odvoji izraze zarezima
-            decisiveKeywords:         Popis ključnih riječi za ignoriranje izraza
-            decisiveKeywordsHelp:     >-
-                        Potrebno je napisati jednu od ovih ključnih riječi pored <em>posebnog</em> desnog razdvojnika (drukčijeg od BBCodea)
-                        s vitičastim zagradama (npr. <code>$$%e%$${<strong>ključnariječ</strong>}</code>) ili unutar BBCodea.
-                        (i.e. <code>[math=<strong>keyword</strong>]%e%[/math]</code>) to prevent expressions from rendering.
-                        <strong>Treba primijetiti</strong> da je <code>[math]%e%[/math]{<strong>ključnariječ</strong>}</code>
-                        primjer <u>neispravnog korištenja</u>.
-            decisiveKeywordsInfo:     Prva ključna riječ na ovom popisu bit će korištena kao zadana u uređivaču teksta.
-            decisiveKeywordsWarning:  "Ne koristi posebne znakove, u suprotnom će biti bačena iznimka!"
-            ignoredTags:              Popis tipova DOM čvorova koji se ignoriraju prilikom rekurzije
-            ignoredClasses:           Popis naziva razreda DOM čvorova koji se ignoriraju prilikom rekurzije
-            ignoredClassesInfo:       Prvi razred na ovom popisu bit će korišten kao zadani za omotavanje ignoriranih izraza.
-            outputMode:               Mod ispisa
-            outputModeHelp:           Odaberi markup jezik za ispis
-            enableColorIsTextColor:   "Dozvoli <code>\\color</code> naredbi da prima dva argumenta (colorIsTextColor)"
-            enableThrowOnError:       Baci pogrešku kad se pojavi nepodržana naredba ili nevaljani LaTeX
-            errorColor:               Boja nepodržanog ili nevaljanog LaTeXa
-            errorColorHelp:           Odaberi boju kojom će se iscrtavati nepodržane i nevaljane LaTeX naredbe kad je bacanje pogrešaka onemogućeno.
-            sizeSettings:             Postavke veličine
-            sizeSettingsHelp:         "Kao razdvojnik decimalnih brojeva koristi se <strong>točka</strong>. <em>Beskonačnosti</em> nisu valjani unos!"
-            minRuleThickness:         "Najmanja debljina (em)"
-            maxSize:                  "Najveća veličina (em)"
-            macros:                   Makroi
-            macrosHelp:               Zbirka prilagođenih makroa.
-            maxExpand:                Ograničenje najvećeg rasprostranjenja
-            katexOptionsInfo:         "Više pojedinosti o KaTeX postavkama možeš pronaći na https://katex.org/"
-            otherOptionsHeading:      Druge postavke
-            enableTextEditorButtons:  Prikaži gumbiće na uređivaču teksta
-    forum:
-        textEditor:
-            blockExpression:          Blokovski izraz
-            inlineExpression:         Izraz unutar retka
+  admin:
+    settings:
+      # Settings Pane
+      title: MathRen
+      description: Podesite TeX iscrtavanje matematičkih izraza.
+
+      ####################
+      #   KaTeX Options  #
+      ####################
+
+      katexOptionsHeading: KaTeX postavke
+      katexOptionsInfo: Više informacija o KaTeX postavkama možete pronaći <a>ovdje</a>.
+
+      # Delimiters
+      delimiters: Graničnici
+      delimitersHelp: Odvojite ih zarezima. <strong>%e%</strong> je kratica za matematički izraz (<strong>e</strong>xpression).
+      blockDelimiters: <strong>BBCode</strong> graničnici za blokovske izraze
+      inlineDelimiters: <strong>BBCode</strong> graničnici za linijske izraze
+      mainDelimitersInfo: Prvi graničnici na popisu iznad će se u uređivaču teksta koristiti kao zadani.
+
+      # Ignoring Expressions
+      ignoringExpressions: Ignorirani izrazi
+      ignoringExpressionsHelp: Odvojite ih zarezima.
+      decisiveKeywords: Popis ključnih riječi koje će se ignorirati
+      decisiveKeywordsHelp: >-
+        Pisat ćete jednu od ovih ključnih riječi kao <code>[math=<strong>ključna riječ</strong>]%e%[/math]</code>
+        kako bi onemogućili iscrtavanje izraza.
+      ignoredTags: Popis tipova DOM čvorova koji će se ignorirati tijekom rekurzije
+      ignoredClasses: Popis imena klasa DOM čvorova koji će se ignorirati tijekom rekurzije
+      ignoredClassesInfo: Prva klasa na ovom popisu bit će zadana kod omatanja ignoriranih izraza.
+
+      # Output mode
+      outputMode: Mod ispisa
+      outputModeHelp: Odaberite markup jezik ispisa
+
+      # Unsupported commands
+      errorColor: "Boja nepodržanih naredbi ili neispravnog LaTeX-a"
+      errorColorHelp: Odaberite boju u kojoj će se iscrtavati nepodržane naredve i neispravan LaTeX kad je bacanje pogrešaka onemogućeno.
+
+      # Sizing options
+      sizeSettings: Postavke veličine
+      sizeSettingsHelp: Koristi decimalnu <strong>točku</strong>.
+      minRuleThickness: Najmanja debljina (em)
+      maxSize: Najveća visina (em)
+
+      # Macros
+      macros: Makro naredbe
+      macrosHelp: Zbirka makro naredbi.
+      syntaxInfo: Potrebno je pisati ih u JavaScriptu.
+      maxExpand: Gornja granica proširenja
+
+      # Switch Components
+      enableFleqn: Omogući flush left jednadžbe (fleqn)
+      enableLeqno: Omogući brojeve jednadžbi s lijeva (leqno)
+      enableColorIsTextColor: Dozvoli <code>\color</code> naredbi primanje 2 argumenta (colorIsTextColor)
+      enableThrowOnError: Baci pogrešku prilikom nailaženja na nepodržanu naredbu ili neispravan LaTeX
+
+      # ---
+
+      # Warnings
+      regexInfo: Mora se sastojati samo od velikih i malih slova te podvlake.
+
+      ####################
+      #   Other Options  #
+      ####################
+
+      otherOptionsHeading: Ostale postavke
+
+      # Switch Components
+      enableTextEditorButtons: Prikaži gumbiće na uređivaču teksta
+      enableCopyTeX: Omogući kopiranje izvornika KaTeX-om iscrtanih elemenata
+
+      # ---
+
+      # Informations
+      mentions: Morate omogućiti <code>flarum/mentions</code> proširenje kako biste aktivirali gumb za odgovor.
+
+      ####################
+      #  General Strings #
+      ####################
+
+      # Alerts
+      saved_message: => core.admin.basics.saved_message
+      validation: 'Validacija "{field_key}" nije uspjela.'
+  forum:
+    textEditor:
+      # Text Editor Buttons
+      blockExpression: Blokovski izraz
+      inlineExpression: Linijski izraz

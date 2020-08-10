@@ -1,0 +1,41 @@
+clarkwinkelmann-group-invitation:
+  forum:
+    title: Dobili ste pozivnicu u grupu {group}!
+    generic-title: Group Invitation
+    user:
+      already-connected: >
+        Dodat ćemo {username} u grupu {group}.
+        Krivi korisnik? <a>Prijavi se na drugi račun</a>.
+      not-connected: <a>Prijavi se</a> da prihvatiš pozivnicu.
+      not-authorized: Vaš trenutni račun {username} nije ovlašten ulaziti u grupe. <a>Prijavi se na drugi račun</a>.
+      already-member: >
+        Odlične vijesti, vaš račun {username} je već u grupi {group}!
+        Želiš uči u grupu s drugim računom? <a>Prijavi se na drugi račun</a>.
+    invitation:
+      not-found: Žao nam je, ali ova pozivnica u grupu nije pronađena.
+      no-usages-left: Ova pozivnica u grupu je istekla.
+    apply: Uđi u grupu
+    success-alert: Uspješno ste ušli u grupu!
+
+  admin:
+    permissions:
+      use: Iskorištavaj poveznice pozivnica u grupu
+    settings:
+      title: Group Invitation
+      head:
+        code: Kod
+        group: Grupa
+        usage: Korištenje
+      placeholder:
+        code: Samogenerirajuće
+        group: Odaberi...
+        usage: Ostavite prazno za neograničeno
+      empty: Još nema pozivnica.
+      unlimited: neograničeno
+      create: Stvori
+      delete: Izbriši
+
+  api:
+    error:
+      not-found: Kod pozivnice nije pronađen
+      no-usages-left: Pozivnica nije više valjana

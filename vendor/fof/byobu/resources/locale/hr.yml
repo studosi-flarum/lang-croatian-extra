@@ -1,68 +1,90 @@
 fof-byobu:
-    forum:
-        badges:
-            is_private:
-                tooltip: Privatna rasprava
-        buttons:
-            add_recipients: Primatelji
-            submit: U redu
-            edit_recipients: Uredi primatelje
-            send_pd: "Pošalji {username} poruku"
-            cancel: Otkaži
-        composer_private_discussion:
-            submit_button: Započni privatnu raspravu
-            title_placeholder: Naslov privatne rasprave
-        labels:
-            recipients: "{count} primatelj|{count} primatelja"
-            user_deleted: -nepostojeći korisnik-
-        nav:
-            private_discussions: Privatna rasprava
-            start_button: Nova privatna rasprava
-        input:
-            search_recipients: Pretražite primatelje, unesite bar tri znaka...
-        search:
-            headings:
-                groups: Grupe dopuštenja
-        modal:
-            titles:
-                update_recipients: "Ažuriraj primatelje {title}"
-                add_recipients: Dodaj još primatelja u raspravu
-            help:
-                add_recipients: Ova rasprava bit će vidljiva samo korisnicima koje ovdje odaberete. Potreban je barem 1 primatelj (izuzev vas)
-                update_recipients: Ova rasprava bit će vidljiva samo korisnicima koje ovdje odaberete.
-        post:
-            recipients_modified:
-                added_and_removed: "{username} uključuje {added} u raspravu i isključuje {removed} iz rasprave."
-                added: "{username} uključuje {added} u raspravu."
-                removed: "{username} isključuje {removed} iz rasprave."
-        user:
-            settings:
-                block_pd: Odbij privatne rasprave
+  forum:
+    badges:
+      is_private:
+        tooltip: Privatna rasprava
+    buttons:
+      add_recipients: Primatelji
+      submit: U redu
+      edit_recipients: Uredi primatelje
+      send_pd: "Pošalji {username} poruku"
+      cancel: Otkaži
+      remove_from_discussion: Napusti ovu privatnu raspravu
+      make_public: Učini ovu raspravu javnom
+    composer_private_discussion:
+      submit_button: Započni privatnu raspravu
+      title_placeholder: Naslov privatne rasprave
+    labels:
+      recipients: "{count} primatelj|{count} primatelja"
+      user_deleted: -nepostojeći korisnik-
+    nav:
+      private_discussions: Privatna rasprava
+      start_button: Nova privatna rasprava
+    input:
+      search_recipients: Pretražite primatelje, unesite bar tri znaka...
+    search:
+      headings:
+        groups: Grupe dopuštenja
+    modal:
+      titles:
+        update_recipients: "Ažuriraj primatelje {title}"
+        add_recipients: Dodaj još primatelja u raspravu
+      help:
+        add_recipients: Ova rasprava bit će vidljiva samo korisnicima koje ovdje odaberete. Potreban je barem 1 primatelj (izuzev vas)
+        update_recipients: Ova rasprava bit će vidljiva samo korisnicima koje ovdje odaberete.
+    post:
+      recipients_modified:
+        added_and_removed: "{username} uključuje {added} u raspravu i isključuje {removed} iz rasprave."
+        added: "{username} uključuje {added} u raspravu."
+        removed: "{username} isključuje {removed} iz rasprave."
+        removed_self: "{username} napušta privatnu raspravu."
+    user:
+      settings:
+        block_pd: Odbij privatne rasprave
 
-            byobu_link: Privatne rasprave
-            dropdown_label: Privatne rasprave
-
-        notifications:
-            pd_label: Nova privatna rasprava
-            pd_reply_label: Nova objava u privatnoj raspravi
-            pd_reply_text: "{username} sudjeluje u privatnoj raspravi"
-            pd_text: "{username} započinje novu raspravu s tobom"
-
-    admin:
-        permission:
-            create_private_discussions_with_users: Stvaraj privatne rasprave s korisnicima
-            create_private_discussions_with_groups: Stvaraj privatne rasprave s grupama
-            create_private_discussions_with_blocking_users: Stvaraj privatne razgovore s korisnicima koji ih odbijaju
-            edit_user_recipients: Uređuj sastav korisnika u privatnim raspravama
-            edit_group_recipients: Uređuj sastav grupa u privatnim raspravama
-            view_private_discussions-when-flagged: Imaj uvid u prijavljene privatne rasprave
-
-        settings:
-            use_tag_slug: Odredite kraticu oznake kojom će se automatski označavati privatni razgovori
-            use_tag_slug_help: Ostavite prazno kako bi korisnici mogli odabrati svoju oznaku, vrijedi samo za novostovrene privatne rasprave
+      byobu_link: Privatne rasprave
+      dropdown_label: Privatne rasprave
 
     notifications:
-        private_discussion_created:
-            title: "[Privatna rasprava] korisnik započinje novu privatnu raspravu s tobom"
-        private_discussion_replied:
-            title: "[Privatna rasprava] korisnik objavljuje u privatnoj raspravi"
+      pd_label: Nova privatna rasprava
+      pd_reply_label: Nova objava u privatnoj raspravi
+      pd_reply_text: "{username} sudjeluje u privatnoj raspravi"
+      pd_text: "{username} započinje novu raspravu s tobom"
+      pd_user_left_label: Neki od primatelje privatne rasprave čije sam dio napusti raspravu
+      pd_user_left_text: "{username} napušta privatnu raspravu"
+      pd_added_text: "{username} te uključuje u privatnu raspravu"
+      pd_added_label: "Netko me doda u postojeću privatnu raspravu"
+      pd_made_public_label: "Privatna rasprava postane javna"
+      pd_made_public_text: "{username} čini ovu raspravu javnom"
+
+    confirm:
+      make_public: Ovo će učiniti ovu privatnu raspravu vidljivu svima. Razmislite još jednom želite li ovo.
+
+  admin:
+    permission:
+      create_private_discussions_with_users: Stvaraj privatne rasprave s korisnicima
+      create_private_discussions_with_groups: Stvaraj privatne rasprave s grupama
+      create_private_discussions_with_blocking_users: Stvaraj privatne razgovore s korisnicima koji ih odbijaju
+      edit_user_recipients: Uređuj sastav korisnika u privatnim raspravama
+      edit_group_recipients: Uređuj sastav grupa u privatnim raspravama
+      make_private_into_public: Pretvaraj privatne rasprave u javne
+      view_private_discussions-when-flagged: Imaj uvid u prijavljene privatne rasprave
+
+    settings:
+      use_tag_slug: Odredite kraticu oznake kojom će se automatski označavati privatni razgovori
+      use_tag_slug_help: Ostavite prazno kako bi korisnici mogli odabrati svoju oznaku, vrijedi samo za novostovrene privatne rasprave
+      use_tag_slug_no_restriction: "- Bez ograničenja -"
+      byobu_index: Prikaži poveznicu na privatne rasprave na naslovnici
+      byobu_index_help: Nakon uključivanja, poveznica na privatne rasprave bit će prikazana u glavnoj navigacijskoj traci foruma
+
+  notifications:
+    private_discussion_created:
+      title: "[Privatna rasprava] korisnik započinje novu privatnu raspravu s tobom"
+    private_discussion_replied:
+      title: "[Privatna rasprava] korisnik objavljuje u privatnoj raspravi"
+    recipient_removed:
+      title: "[Private Discussion] korisnik napušta raspravu"
+    private_discussion_added:
+      title: "[Private Discussion] korisnik te dodaje u privatnu raspavu"
+    made_public:
+      title: "[Private Discussion] korisnik čini raspravu javnom"

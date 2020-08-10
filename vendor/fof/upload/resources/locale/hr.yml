@@ -15,6 +15,10 @@ fof-upload:
         Podesite mapiranje ovdje, molim. Svaki regularni izraz mime tipa će biti zbrinut posebnim prilagodnikom predaje i predloškom preuzimanja.
       resize: |
         Odaberi želiš li promijeniti veličinu slika prije nego što budu predane. Možeš odabrati najveću širinu i visinu u pikselima. Postupak promjene veličine ne mijenja omjer visine i širine slike.
+      client_extension: |
+        Uobičajeno ponašanje Uploada je da odabere sigurnu ekstenziju datoteke ovisno o MIME tipu.
+        Neke datoteke koje se baziraju na ZIPu ili na binarnim podacima mogu uzrokovati korištenje preopćenitih ekstenzija umjesto ispravnih.
+        Ovdje možete unijeti zarezom odvojen popis datotečnih ekstenzija koje se neće dalje obrađivati.
       watermark: |
         Odluči hoće li slike tijekom predaje dobiti vodeni žig. Vodeni žigovi dodaju se na sve ne-gifove ovisno o vašim preferencama ispod.
     labels:
@@ -49,6 +53,8 @@ fof-upload:
         max_width: Najveća širina slike
         title: Promjena veličine slike
         toggle: Promjeni veličine slika
+      client_extension:
+        title: Korisničke datotečne ekstenzije
       watermark:
         file: Predaj sliku vodenog žiga
         position: Položaj vodenog žiga
@@ -67,6 +73,9 @@ fof-upload:
         Prikazuje cijelu sliku u retku. Gubi se funkcionalnost preuzimanja, ne skupljaju se statistike i ignorira se hotlink zaštita.
       image_description: |
         Prikazuje sličicu slike i obavlja preuzimanja preko php-a. Dopušta skupljanje statistike i hotlink zaštitu
+      just-url: Samo URL
+      just-url_description: |
+        Unosi sam URL. Iscrtavanje se ostavlja drugim proširenjima sa sposobnošću automatskog povezivanja. Preuzimanje nije moguće, ne prikuplja se statistika i zaštita htolinkova je onemogućena.
     upload_methods:
       aws-s3: Amazon S3
       imgur: Imgur
@@ -80,3 +89,8 @@ fof-upload:
       error: Greška
       loading: Predajem
       unauthorized: Nemate ovlasti preuzimati datoteke
+  api:
+    upload_errors:
+      forbidden_type: Predaja datoteki ovog tipa nije dopuštena.
+      unsupported_type: "Prilagodnik predaje ne podržava zadani MIME tip: {mime}."
+      could_not_detect_mime: Detekcija MIME tipa ove datoteka nije uspjela, molimo pokušajte ponovo.

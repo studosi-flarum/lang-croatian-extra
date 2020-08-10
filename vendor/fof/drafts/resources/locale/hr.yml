@@ -1,15 +1,41 @@
 fof-drafts:
   admin:
     permissions:
-      start: Stvaraj skice rasprava
+      start: Stvaraj skice
+      schedule: Planiraj skice
+    settings:
+      title: FoF Drafts
+      enable_scheduled_drafts: Omogući planirane skice
+      schedule_on_one_server: "Koristi 'onOneServer()' direktivu za raspodjelu zadataka (potrebno: Redis/Memcache)"
+      schedule_log_output: Pridodaj izlaz schedulera u zapisnik
+  console:
+    scheduled_drafts_disabled: Scheduled drafts are currently disabled in settings.
   forum:
     composer:
       title: Pohrani skicu
-      alert: Skica pohranjena.
+      saving: Pohranjujem...
+      saved: Pohranjeno!
       exit_alert: "Želite li odbaciti skicu?"
+      discard_empty_draft_alert: Odbaci praznu skicu?
     dropdown:
       empty_text: Niste pohranili nikakvu skicu
       title: Skice
-      button: Obriši skicu
+      delete_button: Obriši skicu
+      schedule_button: Planiraj skicu
       tooltip: => fof-drafts.forum.dropdown.title
       alert: "Jeste li sigurni da želite obrisati skicu?"
+    schedule_draft_modal:
+      title: Planirana skica
+      text: Isplaniraj vrijeme kad će se tvoja skica objaviti!
+      scheduled_text: Objava zakazana za {datetime}.
+      scheduled_error: "Nije moguće objaviti radi: {error}."
+      unschedule_button: Otkaži
+      reschedule_button: Ponovno zakaži
+      schedule_button: Zakaži
+    user:
+      settings:
+        drafts_heading: Skice
+        draft_autosave_enable: Omogući automatsku pohranu skica?
+        draft_autosave_interval_label: Vrijeme do automatske pohrane (u sekundama)
+        draft_autosave_interval_button: Vrijeme do automatske pohrane
+        draft_autosave_interval_invalid: Vrijeme do automatske pohrane mora biti cijeli broj veći od 4.

@@ -1,0 +1,15 @@
+fof-forum-statistics-widget:
+  forum:
+    navbar:
+      widget_title: Statistika
+      discussions_count: "Broj rasprava: {discussionsCount}"
+      posts_count: "Broj objava: {postsCount}"
+      users_count: "Broj članova: {usersCount}"
+      latest_member: "Najnoviji član: "
+  admin:
+    settings:
+      title: Postavke widgeta
+      widget_ignore_private_discussions_label: Zanemari privatne rasprave
+      widget_order_label: Poredak widgeta
+      widget_helper_text: "Uredite ovu postavku kako biste podesili položaj ovog widgeta u bočnom izborniku vašeg foruma.
+      Veća brojka će postaviti widget više na bočnom izborniku (vrijednost može biti pozitivna i negativna)."

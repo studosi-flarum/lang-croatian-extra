@@ -1,13 +1,13 @@
 the-turk-edit-notifications:
-    forum:
-      notifications:
-        interacted_post_edited_text:          "{username} uređuje svoju objavu"
-        post_edited_text:                     "{username} uređuje tvoju objavu"
-      settings:
-        notify_interacted_post_edited_label:  Kad netko uredi objavu s kojom međudjelujem
-        notify_post_edited_label:             Kad netko uredi moju objavu
+  forum:
+    notifications:
+      interacted_post_edited_text: "{username} uređuje svoju objavu"
+      post_edited_text: "{username} uređuje tvoju objavu"
+    settings:
+      notify_interacted_post_edited_label: Kad netko uredi objavu s kojom međudjelujem
+      notify_post_edited_label: Kad netko uredi moju objavu
 
-    admin:
-      settings:
-        title:                                Edit Notifications postavke
-        enableInteracts:                      Uključi obavijesti o uređivanju međudjelovanih objava
+  admin:
+    settings:
+      title: Edit Notifications postavke
+      enableInteracts: Uključi obavijesti o uređivanju međudjelovanih objava
